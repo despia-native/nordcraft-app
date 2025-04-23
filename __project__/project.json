@@ -1,64 +1,24 @@
 {
-  "id": "7546cf70-4b38-48be-bcd3-a3dfb35b939f",
-  "name": "medium",
+  "id": "a5050c89-2143-4804-9781-19743f05af2a",
   "project": {
-    "id": "2961e2d1-3c63-4d98-bd3b-302fbd35972b",
-    "name": "Untitled",
+    "id": "3061b3cd-b8dd-49f5-a09a-f632cecbd33f",
+    "name": "converter",
     "type": "app",
-    "emoji": "🙌",
+    "emoji": "🙂",
     "accounts": {
-      "id": "f9e6ee17-c6b2-4cf5-9d67-0e3cba39d2a3",
-      "name": "erik-test-org",
-      "account_plans": { "plans": { "custom_domains": false }, "active": true }
+      "id": "26304ed3-7532-46ce-8f6d-491a8662ce35",
+      "name": "nocode-procode"
     },
-    "short_id": "brown_sebulba_agreed_baboon",
+    "short_id": "converter",
     "thumbnail": null,
-    "description": null,
-    "published_at": null,
-    "custom_domains": false
+    "description": "",
+    "published_at": null
   },
-  "commit": "9c496ac007485f69af00463d9e13e8b8912bd9f1",
+  "commit": "80c8299ec15af6348326c3c37f83c04c42ab9c09",
   "files": {
     "components": {
       "HomePage": {
-        "apis": {
-          "WOW API": {
-            "url": {
-              "type": "value",
-              "value": "https://owen-wilson-wow-api.onrender.com"
-            },
-            "name": "WOW API",
-            "path": {
-              "8dyQhOhHDyfv-BskOoSks": {
-                "index": 1,
-                "formula": { "type": "value", "value": "random" }
-              },
-              "IbdbGqON7MJvvmNOO1TAg": {
-                "index": 0,
-                "formula": { "type": "value", "value": "wows" }
-              }
-            },
-            "type": "http",
-            "client": {},
-            "inputs": {},
-            "method": "GET",
-            "server": {
-              "ssr": {
-                "enabled": { "formula": { "type": "value", "value": true } }
-              },
-              "proxy": {
-                "enabled": { "formula": { "type": "value", "value": false } }
-              }
-            },
-            "headers": {},
-            "isError": {},
-            "timeout": {},
-            "version": 2,
-            "autoFetch": { "type": "value", "value": true },
-            "queryParams": {},
-            "redirectRules": {}
-          }
-        },
+        "apis": {},
         "name": "HomePage",
         "nodes": {
           "root": {
@@ -66,549 +26,2267 @@
             "type": "element",
             "attrs": {},
             "style": {
-              "gap": "8px",
-              "color": "var(--grey-200, #E5E5E5)",
+              "gap": "1rem",
+              "background": " #0f0f0f",
               "min-height": "100%",
               "align-items": "center",
-              "justify-content": "center",
-              "background-color": "var(--grey-900)"
+              "justify-content": "center"
             },
             "events": {},
             "classes": {},
             "children": [
-              "p44ree-FsxJKSeiWKWQpa",
-              "D3FDz9GhM-ZyJChwJhxzK",
-              "pK1rq0usjmjwt2RZhiTFV",
-              "9cdB1ieO8k-D0guvB5q6d",
-              "co7vEt15EK6qGAVA2PGaM",
-              "SsJicr-d3CKhKiJ2O7CAO"
+              "Y18jpA2adJofW0NrdpcE-",
+              "xXYLwNOvtpfrswNXUTbXJ"
             ],
             "styleVariables": {}
           },
-          "9cdB1ieO8k-D0guvB5q6d": {
+          "-C3HkGaYvHSZg50YsUFPZ": {
+            "tag": "div",
+            "type": "element",
+            "attrs": {},
+            "style": {
+              "gap": "0.5rem",
+              "width": "100%",
+              "display": "flex",
+              "border-style": "solid",
+              "border-width": "0",
+              "flex-direction": "column"
+            },
+            "events": {},
+            "classes": {},
+            "children": [
+              "DRaSS3SLRcZzCqx_nUlUk",
+              "BBfIvXlKxFj5duKPPpI3K"
+            ],
+            "variants": [],
+            "styleVariables": {}
+          },
+          "0l83zDP0jxCZYBKTSRvO9": {
+            "type": "text",
+            "value": {
+              "type": "value",
+              "value": "Nordcraft Code"
+            }
+          },
+          "2UGvqzOT_zgECr-jLGiyy": {
+            "tag": "defs",
+            "type": "element",
+            "attrs": {
+              "data-unset-toddle-styles": {
+                "type": "value",
+                "value": true
+              }
+            },
+            "style": {
+              "box-sizing": "border-box"
+            },
+            "events": {},
+            "classes": {},
+            "children": [
+              "y2dHYcinWLxElFXo0gVKi"
+            ],
+            "styleVariables": {}
+          },
+          "2WCxcieXGNV6URTEHcHiq": {
+            "type": "text",
+            "value": {
+              "type": "value",
+              "value": "Tailwind Code"
+            }
+          },
+          "2ZG73oVOWn63qWQyenDqb": {
+            "tag": "path",
+            "type": "element",
+            "attrs": {
+              "d": {
+                "type": "value",
+                "value": "M404.061 87.9999C399.695 87.9999 395.645 86.9499 391.913 84.8499C388.213 82.7166 385.247 79.5833 383.014 75.4499C380.781 71.3166 379.664 66.2333 379.664 60.1999C379.664 54.3333 380.797 49.3666 383.064 45.2999C385.363 41.2333 388.363 38.1499 392.063 36.0499C395.795 33.95 399.795 32.9 404.061 32.9C408.227 32.9 412.077 33.9333 415.61 36C417.555 37.1196 419.288 38.4818 420.809 40.0865V8.74997H434.008V86.8999H420.809V80.4986C419.348 82.1231 417.681 83.5235 415.81 84.6999C412.31 86.8999 408.394 87.9999 404.061 87.9999ZM418.809 50.3999C420.143 52.3666 420.809 54.6666 420.809 57.2999V62.7499C420.809 65.4166 420.159 67.7833 418.859 69.8499C417.593 71.8833 415.926 73.4833 413.86 74.6499C411.794 75.8166 409.544 76.3999 407.111 76.3999C403.278 76.3999 400.012 75.0833 397.312 72.4499C394.612 69.8166 393.262 65.7333 393.262 60.1999C393.262 54.6333 394.612 50.5666 397.312 47.9999C400.012 45.3999 403.278 44.0999 407.111 44.0999C409.444 44.0999 411.644 44.6666 413.71 45.7999C415.81 46.8999 417.51 48.4333 418.809 50.3999Z"
+              },
+              "fill": {
+                "type": "value",
+                "value": "white"
+              },
+              "data-id": {
+                "type": "value",
+                "value": "0.0.1.0.10"
+              },
+              "clip-rule": {
+                "type": "value",
+                "value": "evenodd"
+              },
+              "fill-rule": {
+                "type": "value",
+                "value": "evenodd"
+              },
+              "data-node-id": {
+                "type": "value",
+                "value": "9yrY7oqMqQ0M3nH7a--1Y"
+              },
+              "data-component": {
+                "type": "value",
+                "value": "nordcraft_shared/nc-logo-wide"
+              },
+              "data-unset-toddle-styles": {
+                "type": "value",
+                "value": true
+              }
+            },
+            "style": {
+              "box-sizing": "border-box"
+            },
+            "events": {},
+            "classes": {},
+            "children": [],
+            "styleVariables": {}
+          },
+          "4dhVfV0XmZkgglPeq7cKr": {
+            "tag": "path",
+            "type": "element",
+            "attrs": {
+              "d": {
+                "type": "value",
+                "value": "M498.092 86.9V33.8H511.241V40.9372C513.749 37.1666 516.957 35.0667 519.09 34.2C521.223 33.3334 523.656 32.9 526.389 32.9C528.555 32.9 530.255 33.0667 531.488 33.4C532.755 33.7 533.538 33.95 533.838 34.15L531.438 46.2C531.105 45.9667 530.422 45.6834 529.389 45.35C528.389 44.9834 527.039 44.8 525.339 44.8C522.639 44.8 520.373 45.2667 518.54 46.2C516.74 47.1 515.307 48.3334 514.24 49.9C513.174 51.4334 512.407 53.1334 511.941 55C511.474 56.8334 511.241 58.6667 511.241 60.5V86.9H498.092Z"
+              },
+              "fill": {
+                "type": "value",
+                "value": "white"
+              },
+              "data-id": {
+                "type": "value",
+                "value": "0.0.1.0.9"
+              },
+              "data-node-id": {
+                "type": "value",
+                "value": "5v_37Io7Vk3NbTK6VpWhY"
+              },
+              "data-component": {
+                "type": "value",
+                "value": "nordcraft_shared/nc-logo-wide"
+              },
+              "data-unset-toddle-styles": {
+                "type": "value",
+                "value": true
+              }
+            },
+            "style": {
+              "box-sizing": "border-box"
+            },
+            "events": {},
+            "classes": {},
+            "children": [],
+            "styleVariables": {}
+          },
+          "4vNXNZZShhaUA-aR3YpvF": {
+            "tag": "path",
+            "type": "element",
+            "attrs": {
+              "d": {
+                "type": "value",
+                "value": "M498.092 86.9V33.8H511.241V40.9372C513.749 37.1666 516.957 35.0667 519.09 34.2C521.223 33.3334 523.656 32.9 526.389 32.9C528.555 32.9 530.255 33.0667 531.488 33.4C532.755 33.7 533.538 33.95 533.838 34.15L531.438 46.2C531.105 45.9667 530.422 45.6834 529.389 45.35C528.389 44.9834 527.039 44.8 525.339 44.8C522.639 44.8 520.373 45.2667 518.54 46.2C516.74 47.1 515.307 48.3334 514.24 49.9C513.174 51.4334 512.407 53.1334 511.941 55C511.474 56.8334 511.241 58.6667 511.241 60.5V86.9H498.092Z"
+              },
+              "fill": {
+                "type": "value",
+                "value": "white"
+              },
+              "data-id": {
+                "type": "value",
+                "value": "0.0.1.0.9"
+              },
+              "data-node-id": {
+                "type": "value",
+                "value": "5v_37Io7Vk3NbTK6VpWhY"
+              },
+              "data-component": {
+                "type": "value",
+                "value": "nordcraft_shared/nc-logo-wide"
+              },
+              "data-unset-toddle-styles": {
+                "type": "value",
+                "value": true
+              }
+            },
+            "style": {
+              "box-sizing": "border-box"
+            },
+            "events": {},
+            "classes": {},
+            "children": [],
+            "styleVariables": {}
+          },
+          "5qa05j8x2dqF4ooa48Sz6": {
+            "type": "text",
+            "value": {
+              "type": "value",
+              "value": "Learn more"
+            }
+          },
+          "61xX0tWhp9aL--Sj5Bhi6": {
+            "tag": "p",
+            "type": "element",
+            "attrs": {},
+            "style": {
+              "display": "block",
+              "font-size": "1.15rem",
+              "font-weight": "600",
+              "flex-direction": "row",
+              "letter-spacing": "-0.2px"
+            },
+            "events": {},
+            "classes": {},
+            "children": [
+              "GFH9lg6geCssQrk2atzlY"
+            ],
+            "variants": [],
+            "styleVariables": {}
+          },
+          "69vsmMvneYDRdmYRDeU4V": {
+            "tag": "svg",
+            "type": "element",
+            "attrs": {
+              "fill": {
+                "type": "value",
+                "value": "none"
+              },
+              "xmlns": {
+                "type": "value",
+                "value": "http://www.w3.org/2000/svg"
+              },
+              "stroke": {
+                "type": "value",
+                "value": "currentColor"
+              },
+              "viewBox": {
+                "type": "value",
+                "value": "0 0 24 24"
+              }
+            },
+            "style": {
+              "width": "1rem",
+              "height": "1rem",
+              "display": "block",
+              "border-style": "solid",
+              "border-width": "0",
+              "margin-right": "0.25rem",
+              "flex-direction": "row"
+            },
+            "events": {},
+            "classes": {},
+            "children": [
+              "MXRQEaZuZZu-cse2KCn_b"
+            ],
+            "variants": [],
+            "styleVariables": {}
+          },
+          "7of48cDSlqSvnCqlonVTc": {
+            "tag": "path",
+            "type": "element",
+            "attrs": {
+              "d": {
+                "type": "value",
+                "value": "M46.3352 69.7964L34.2045 65.4043V85.7143H25.9954V65.4043L0 74.8163L30.1 9.42857L52.1093 57.2404L46.3352 69.7964Z"
+              },
+              "fill": {
+                "type": "value",
+                "value": "white"
+              },
+              "data-id": {
+                "type": "value",
+                "value": "0.0.1.0.2"
+              },
+              "data-node-id": {
+                "type": "value",
+                "value": "CUkd58mdEqDUNtxWcImK-"
+              },
+              "data-component": {
+                "type": "value",
+                "value": "nordcraft_shared/nc-logo-wide"
+              },
+              "data-unset-toddle-styles": {
+                "type": "value",
+                "value": true
+              }
+            },
+            "style": {
+              "box-sizing": "border-box"
+            },
+            "events": {},
+            "classes": {},
+            "children": [],
+            "styleVariables": {}
+          },
+          "9PtLSPgHHInkAC307BHhE": {
+            "tag": "p",
+            "type": "element",
+            "attrs": {},
+            "style": {
+              "color": "#ffffff9e",
+              "display": "block",
+              "font-size": "0.8rem",
+              "border-style": "solid",
+              "border-width": "0",
+              "flex-direction": "row"
+            },
+            "events": {},
+            "classes": {},
+            "children": [
+              "Bth7dSeXaQ4AkQCMYW5g3"
+            ],
+            "variants": [],
+            "styleVariables": {}
+          },
+          "Abyq8cBWoC16KZlpQfBoW": {
+            "type": "text",
+            "value": {
+              "type": "value",
+              "value": "Paste your Tailwind HTML below to convert it to Nordcraft syntax."
+            }
+          },
+          "BBfIvXlKxFj5duKPPpI3K": {
+            "tag": "textarea",
+            "type": "element",
+            "attrs": {
+              "rows": {
+                "type": "value",
+                "value": "8"
+              },
+              "value": {
+                "path": [
+                  "Variables",
+                  "html"
+                ],
+                "type": "path"
+              },
+              "placeholder": {
+                "type": "value",
+                "value": "Paste your Tailwind HTML Code..."
+              }
+            },
+            "style": {
+              "color": "var(--grey-300)",
+              "width": "100%",
+              "resize": "none",
+              "display": "block",
+              "padding": "0.75rem",
+              "font-size": "12px",
+              "background": " #242424",
+              "min-height": "200px",
+              "flex-direction": "row",
+              "border-top-left-radius": "0.75rem",
+              "border-top-right-radius": "0.75rem",
+              "border-bottom-left-radius": "0.75rem",
+              "border-bottom-right-radius": "0.75rem"
+            },
+            "events": {
+              "input": {
+                "actions": [
+                  {
+                    "data": {
+                      "path": [
+                        "Event",
+                        "target",
+                        "value"
+                      ],
+                      "type": "path"
+                    },
+                    "type": "SetVariable",
+                    "variable": "html"
+                  }
+                ],
+                "trigger": "input"
+              }
+            },
+            "classes": {},
+            "children": [],
+            "variants": [],
+            "styleVariables": {}
+          },
+          "BpLRdkxhK7RzbVJNBQ9HW": {
+            "tag": "path",
+            "type": "element",
+            "attrs": {
+              "d": {
+                "type": "value",
+                "value": "M232.798 86.8999H220V13.15H240.648L265.645 76.6007V13.15H278.493V86.8999H257.546L232.798 23.9879V86.8999Z"
+              },
+              "fill": {
+                "type": "value",
+                "value": "white"
+              },
+              "data-id": {
+                "type": "value",
+                "value": "0.0.1.0.5"
+              },
+              "data-node-id": {
+                "type": "value",
+                "value": "8vmHtmRbKdhwLPm7Ald1e"
+              },
+              "data-component": {
+                "type": "value",
+                "value": "nordcraft_shared/nc-logo-wide"
+              },
+              "data-unset-toddle-styles": {
+                "type": "value",
+                "value": true
+              }
+            },
+            "style": {
+              "box-sizing": "border-box"
+            },
+            "events": {},
+            "classes": {},
+            "children": [],
+            "styleVariables": {}
+          },
+          "Bth7dSeXaQ4AkQCMYW5g3": {
+            "type": "text",
+            "value": {
+              "type": "value",
+              "value": "Join our Daily Office Hours and Make Progress Faster!"
+            }
+          },
+          "CZAdhUJ0v4g6UsZC_K9V1": {
+            "tag": "div",
+            "type": "element",
+            "attrs": {},
+            "style": {
+              "gap": "0.5rem",
+              "display": "flex",
+              "border-style": "solid",
+              "border-width": "0",
+              "flex-direction": "column"
+            },
+            "events": {},
+            "classes": {},
+            "children": [
+              "fw6ypIyyw2Q1lFjI6vYgV",
+              "uzOtmqoB39ErzMAyC_DFY",
+              "lmqGxUYGi4_WgV8dDUqaP"
+            ],
+            "variants": [],
+            "styleVariables": {}
+          },
+          "DRaSS3SLRcZzCqx_nUlUk": {
+            "tag": "label",
+            "type": "element",
+            "attrs": {
+              "for": {
+                "type": "value",
+                "value": "tailwind-input"
+              }
+            },
+            "style": {
+              "display": "block",
+              "font-size": "0.875rem",
+              "font-weight": "500",
+              "border-style": "solid",
+              "border-width": "0",
+              "flex-direction": "row"
+            },
+            "events": {},
+            "classes": {},
+            "children": [
+              "2WCxcieXGNV6URTEHcHiq"
+            ],
+            "variants": [],
+            "styleVariables": {}
+          },
+          "E_qCjQAVFjR1kh-960mOQ": {
+            "type": "text",
+            "value": {
+              "type": "value",
+              "value": "-> Copy System Prompt"
+            }
+          },
+          "FJIdHLxzXnkdj4FPR7BoS": {
+            "tag": "path",
+            "type": "element",
+            "attrs": {
+              "d": {
+                "type": "value",
+                "value": "M13 10V3L4 14h7v7l9-11h-7z"
+              },
+              "stroke-width": {
+                "type": "value",
+                "value": "2"
+              },
+              "stroke-linecap": {
+                "type": "value",
+                "value": "round"
+              },
+              "stroke-linejoin": {
+                "type": "value",
+                "value": "round"
+              }
+            },
+            "style": {
+              "display": "block",
+              "border-style": "solid",
+              "border-width": "0",
+              "flex-direction": "row"
+            },
+            "events": {},
+            "classes": {},
+            "children": [],
+            "variants": [],
+            "styleVariables": {}
+          },
+          "GFH9lg6geCssQrk2atzlY": {
+            "type": "text",
+            "value": {
+              "type": "value",
+              "value": "Get Help with your Nordcraft Project!"
+            }
+          },
+          "HieB4c5A-6V3PFdA2qH8E": {
+            "tag": "path",
+            "type": "element",
+            "attrs": {
+              "d": {
+                "type": "value",
+                "value": "M652.651 87.9C650.752 87.9 648.819 87.7166 646.852 87.35C644.886 86.9833 643.086 86.3 641.453 85.3C639.82 84.3 638.503 82.8333 637.503 80.9C636.503 78.9666 636.003 76.4166 636.003 73.25V71.05V68.7V44.3L610.985 44.3V86.8999H597.837V44.3H586.588V33.8H597.837V29.05C597.837 25.95 598.253 23.2333 599.087 20.9C599.92 18.5333 601.053 16.5333 602.486 14.9C603.919 13.2667 605.553 11.95 607.386 10.95C609.252 9.91667 611.235 9.16666 613.335 8.7C615.468 8.23333 617.585 8 619.684 8C621.684 8 623.201 8.11667 624.234 8.35C625.3 8.58333 626.017 8.78333 626.383 8.95V19.55C625.984 19.4167 625.284 19.2667 624.284 19.1C623.317 18.9 622.267 18.8 621.134 18.8C619.101 18.8 617.418 19.1 616.085 19.7C614.752 20.2667 613.718 21.0667 612.985 22.1C612.252 23.1333 611.735 24.3333 611.435 25.7C611.135 27.0333 610.985 28.5 610.985 30.1V33.8L628.554 33.8C630.287 33.8 631.654 33.7333 632.654 33.6C633.654 33.4333 634.387 33.0667 634.854 32.5C635.32 31.9333 635.62 31.05 635.753 29.85C635.92 28.6167 636.003 26.9167 636.003 24.75V16.3H649.202V33.8H665V44.3H649.202V65.6V67.5V69.25C649.202 71.7166 649.502 73.7 650.102 75.2C650.702 76.7 652.118 77.45 654.351 77.45C655.418 77.45 656.418 77.35 657.351 77.15C658.317 76.95 659.034 76.75 659.501 76.55V86.85C658.867 87.0833 657.951 87.3166 656.751 87.55C655.551 87.7833 654.185 87.9 652.651 87.9Z"
+              },
+              "fill": {
+                "type": "value",
+                "value": "white"
+              },
+              "data-id": {
+                "type": "value",
+                "value": "0.0.1.0.8"
+              },
+              "data-node-id": {
+                "type": "value",
+                "value": "kYTZxYUluQglPWiX4QfFp"
+              },
+              "data-component": {
+                "type": "value",
+                "value": "nordcraft_shared/nc-logo-wide"
+              },
+              "data-unset-toddle-styles": {
+                "type": "value",
+                "value": true
+              }
+            },
+            "style": {
+              "box-sizing": "border-box"
+            },
+            "events": {},
+            "classes": {},
+            "children": [],
+            "styleVariables": {}
+          },
+          "IpFQ4jN_c-5X4cDbxftdh": {
+            "tag": "path",
+            "type": "element",
+            "attrs": {
+              "d": {
+                "type": "value",
+                "value": "M344.952 86.9V33.8H358.1V40.9372C360.608 37.1666 363.816 35.0667 365.949 34.2C368.082 33.3334 370.515 32.9 373.248 32.9C375.415 32.9 377.115 33.0667 378.348 33.4C379.614 33.7 380.398 33.95 380.697 34.15L378.298 46.2C377.964 45.9667 377.281 45.6834 376.248 45.35C375.248 44.9834 373.898 44.8 372.198 44.8C369.499 44.8 367.232 45.2667 365.399 46.2C363.599 47.1 362.166 48.3334 361.1 49.9C360.033 51.4334 359.267 53.1334 358.8 55C358.333 56.8334 358.1 58.6667 358.1 60.5V86.9H344.952Z"
+              },
+              "fill": {
+                "type": "value",
+                "value": "white"
+              },
+              "data-id": {
+                "type": "value",
+                "value": "0.0.1.0.6"
+              },
+              "data-node-id": {
+                "type": "value",
+                "value": "3YKpHnSRm7m28KPB17tR9"
+              },
+              "data-component": {
+                "type": "value",
+                "value": "nordcraft_shared/nc-logo-wide"
+              },
+              "data-unset-toddle-styles": {
+                "type": "value",
+                "value": true
+              }
+            },
+            "style": {
+              "box-sizing": "border-box"
+            },
+            "events": {},
+            "classes": {},
+            "children": [],
+            "styleVariables": {}
+          },
+          "KIt71o7c09SzAwETja3x6": {
+            "tag": "div",
+            "type": "element",
+            "attrs": {},
+            "style": {
+              "gap": "1rem",
+              "width": "100%",
+              "display": "flex",
+              "padding": "1rem",
+              "background": " var(--purple-700)",
+              "align-items": "center",
+              "border-color": "var(--purple-500)",
+              "border-style": "solid",
+              "border-width": "2px",
+              "flex-direction": "column",
+              "border-top-left-radius": "1rem",
+              "border-top-right-radius": "1rem",
+              "border-bottom-left-radius": "1rem",
+              "border-bottom-right-radius": "1rem"
+            },
+            "events": {},
+            "classes": {},
+            "children": [
+              "u50IYq9i3Fu09uEiF12Bs",
+              "PmWwEvOB3LbVBMRrtzUn6",
+              "WAXsgwVHCU4uY66YF_N9K"
+            ],
+            "variants": [
+              {
+                "style": {
+                  "flex-direction": "row"
+                },
+                "mediaQuery": {
+                  "min-width": "640px"
+                }
+              }
+            ],
+            "styleVariables": {}
+          },
+          "LNH1kuSNrElHSnFk3KuTZ": {
+            "tag": "path",
+            "type": "element",
+            "attrs": {
+              "d": {
+                "type": "value",
+                "value": "M46.3352 69.7964L34.2045 65.4043V85.7143H25.9954V65.4043L0 74.8163L30.1 9.42857L52.1093 57.2404L46.3352 69.7964Z"
+              },
+              "fill": {
+                "type": "value",
+                "value": "white"
+              },
+              "data-id": {
+                "type": "value",
+                "value": "0.0.1.0.2"
+              },
+              "data-node-id": {
+                "type": "value",
+                "value": "CUkd58mdEqDUNtxWcImK-"
+              },
+              "data-component": {
+                "type": "value",
+                "value": "nordcraft_shared/nc-logo-wide"
+              },
+              "data-unset-toddle-styles": {
+                "type": "value",
+                "value": true
+              }
+            },
+            "style": {
+              "box-sizing": "border-box"
+            },
+            "events": {},
+            "classes": {},
+            "children": [],
+            "styleVariables": {}
+          },
+          "MJY-Nhei30DAdGdfwjwd6": {
+            "tag": "label",
+            "type": "element",
+            "attrs": {
+              "for": {
+                "type": "value",
+                "value": "toddle-output"
+              }
+            },
+            "style": {
+              "display": "block",
+              "font-size": "0.875rem",
+              "font-weight": "500",
+              "border-style": "solid",
+              "border-width": "0",
+              "flex-direction": "row"
+            },
+            "events": {},
+            "classes": {},
+            "children": [
+              "0l83zDP0jxCZYBKTSRvO9"
+            ],
+            "variants": [],
+            "styleVariables": {}
+          },
+          "MXRQEaZuZZu-cse2KCn_b": {
+            "tag": "path",
+            "type": "element",
+            "attrs": {
+              "d": {
+                "type": "value",
+                "value": "M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"
+              },
+              "stroke-width": {
+                "type": "value",
+                "value": "2"
+              },
+              "stroke-linecap": {
+                "type": "value",
+                "value": "round"
+              },
+              "stroke-linejoin": {
+                "type": "value",
+                "value": "round"
+              }
+            },
+            "style": {
+              "display": "block",
+              "border-style": "solid",
+              "border-width": "0",
+              "flex-direction": "row"
+            },
+            "events": {},
+            "classes": {},
+            "children": [],
+            "variants": [],
+            "styleVariables": {}
+          },
+          "OIhnsp2DzxJjf6TU4Fou8": {
+            "tag": "g",
+            "type": "element",
+            "attrs": {
+              "clip-path": {
+                "type": "value",
+                "value": "url(#prefix__clip0)"
+              },
+              "clip-rule": {
+                "type": "value",
+                "value": "evenodd"
+              },
+              "fill-rule": {
+                "type": "value",
+                "value": "evenodd"
+              }
+            },
+            "style": {
+              "box-sizing": "border-box"
+            },
+            "events": {},
+            "classes": {},
+            "children": [
+              "quHXFN6w-_MNBtPY9A4Vl",
+              "jQyqGX-HKHIhPjTctaxbU"
+            ],
+            "styleVariables": {}
+          },
+          "PmWwEvOB3LbVBMRrtzUn6": {
+            "tag": "div",
+            "type": "element",
+            "attrs": {},
+            "style": {
+              "gap": "0.25rem",
+              "flex": "1 1 0%",
+              "display": "flex",
+              "border-style": "solid",
+              "border-width": "0",
+              "flex-direction": "column"
+            },
+            "events": {},
+            "classes": {},
+            "children": [
+              "61xX0tWhp9aL--Sj5Bhi6",
+              "9PtLSPgHHInkAC307BHhE"
+            ],
+            "variants": [],
+            "styleVariables": {}
+          },
+          "Q-eiaDuuEem1EtuwO7Quw": {
+            "tag": "path",
+            "type": "element",
+            "attrs": {
+              "d": {
+                "type": "value",
+                "value": "M404.061 87.9999C399.695 87.9999 395.645 86.9499 391.913 84.8499C388.213 82.7166 385.247 79.5833 383.014 75.4499C380.781 71.3166 379.664 66.2333 379.664 60.1999C379.664 54.3333 380.797 49.3666 383.064 45.2999C385.363 41.2333 388.363 38.1499 392.063 36.0499C395.795 33.95 399.795 32.9 404.061 32.9C408.227 32.9 412.077 33.9333 415.61 36C417.555 37.1196 419.288 38.4818 420.809 40.0865V8.74997H434.008V86.8999H420.809V80.4986C419.348 82.1231 417.681 83.5235 415.81 84.6999C412.31 86.8999 408.394 87.9999 404.061 87.9999ZM418.809 50.3999C420.143 52.3666 420.809 54.6666 420.809 57.2999V62.7499C420.809 65.4166 420.159 67.7833 418.859 69.8499C417.593 71.8833 415.926 73.4833 413.86 74.6499C411.794 75.8166 409.544 76.3999 407.111 76.3999C403.278 76.3999 400.012 75.0833 397.312 72.4499C394.612 69.8166 393.262 65.7333 393.262 60.1999C393.262 54.6333 394.612 50.5666 397.312 47.9999C400.012 45.3999 403.278 44.0999 407.111 44.0999C409.444 44.0999 411.644 44.6666 413.71 45.7999C415.81 46.8999 417.51 48.4333 418.809 50.3999Z"
+              },
+              "fill": {
+                "type": "value",
+                "value": "white"
+              },
+              "data-id": {
+                "type": "value",
+                "value": "0.0.1.0.10"
+              },
+              "clip-rule": {
+                "type": "value",
+                "value": "evenodd"
+              },
+              "fill-rule": {
+                "type": "value",
+                "value": "evenodd"
+              },
+              "data-node-id": {
+                "type": "value",
+                "value": "9yrY7oqMqQ0M3nH7a--1Y"
+              },
+              "data-component": {
+                "type": "value",
+                "value": "nordcraft_shared/nc-logo-wide"
+              },
+              "data-unset-toddle-styles": {
+                "type": "value",
+                "value": true
+              }
+            },
+            "style": {
+              "box-sizing": "border-box"
+            },
+            "events": {},
+            "classes": {},
+            "children": [],
+            "styleVariables": {}
+          },
+          "QH_cbEK6qoo3GSlIvPyTr": {
+            "tag": "div",
+            "type": "element",
+            "attrs": {},
+            "style": {
+              "gap": "0.5rem",
+              "width": "100%",
+              "display": "flex",
+              "border-style": "solid",
+              "border-width": "0",
+              "flex-direction": "column"
+            },
+            "events": {},
+            "classes": {},
+            "children": [
+              "Wv7Uk0DenzrQQ6PPISZvn",
+              "xVMe0gPKhqgtN9oUpCq_U"
+            ],
+            "variants": [],
+            "styleVariables": {}
+          },
+          "QKhuJSjETnIsMvLiM_RC8": {
+            "tag": "path",
+            "type": "element",
+            "attrs": {
+              "d": {
+                "type": "value",
+                "value": "M125.665 69.7964L119.891 57.2404L141.9 9.42857L172 74.8163L146.005 65.4043V85.7143H137.795V65.4043L125.665 69.7964Z"
+              },
+              "fill": {
+                "type": "value",
+                "value": "white"
+              },
+              "data-id": {
+                "type": "value",
+                "value": "0.0.1.0.1"
+              },
+              "data-node-id": {
+                "type": "value",
+                "value": "v4bVAY3_mbQekxNq7JRls"
+              },
+              "data-component": {
+                "type": "value",
+                "value": "nordcraft_shared/nc-logo-wide"
+              },
+              "data-unset-toddle-styles": {
+                "type": "value",
+                "value": true
+              }
+            },
+            "style": {
+              "box-sizing": "border-box"
+            },
+            "events": {},
+            "classes": {},
+            "children": [],
+            "styleVariables": {}
+          },
+          "TANP4Y376tdfcJNYgqpIE": {
+            "tag": "path",
+            "type": "element",
+            "attrs": {
+              "d": {
+                "type": "value",
+                "value": "M123.84 82.2857L86 0L48.16 82.2857L80.84 70.4414V96H91.16V70.4414L123.84 82.2857Z"
+              },
+              "fill": {
+                "type": "value",
+                "value": "white"
+              },
+              "data-id": {
+                "type": "value",
+                "value": "0.0.1.0.0"
+              },
+              "clip-rule": {
+                "type": "value",
+                "value": "evenodd"
+              },
+              "fill-rule": {
+                "type": "value",
+                "value": "evenodd"
+              },
+              "data-node-id": {
+                "type": "value",
+                "value": "CC5dMn8Yr_6ht6UlFUPcZ"
+              },
+              "data-component": {
+                "type": "value",
+                "value": "nordcraft_shared/nc-logo-wide"
+              },
+              "data-unset-toddle-styles": {
+                "type": "value",
+                "value": true
+              }
+            },
+            "style": {
+              "box-sizing": "border-box"
+            },
+            "events": {},
+            "classes": {},
+            "children": [],
+            "styleVariables": {}
+          },
+          "TPSubGmpbwuOTHi3XcY60": {
+            "tag": "path",
+            "type": "element",
+            "attrs": {
+              "d": {
+                "type": "value",
+                "value": "M311.626 87.95C306.027 87.95 301.094 86.7833 296.828 84.45C292.562 82.0833 289.212 78.8167 286.779 74.65C284.379 70.4833 283.179 65.7167 283.179 60.35C283.179 54.95 284.379 50.2 286.779 46.1C289.212 41.9667 292.562 38.7334 296.828 36.4C301.094 34.0667 306.027 32.9 311.626 32.9C317.225 32.9 322.158 34.0667 326.424 36.4C330.69 38.7334 334.023 41.9667 336.423 46.1C338.856 50.2 340.073 54.95 340.073 60.35C340.073 65.7167 338.856 70.4833 336.423 74.65C334.023 78.8167 330.69 82.0833 326.424 84.45C322.158 86.7833 317.225 87.95 311.626 87.95ZM311.626 77.2C314.659 77.2 317.309 76.5 319.575 75.1C321.841 73.7 323.608 71.75 324.874 69.25C326.141 66.7167 326.774 63.75 326.774 60.35C326.774 56.95 326.141 54.0167 324.874 51.55C323.608 49.05 321.841 47.1167 319.575 45.75C317.309 44.3834 314.659 43.7 311.626 43.7C308.626 43.7 305.977 44.3834 303.677 45.75C301.41 47.1167 299.644 49.05 298.378 51.55C297.111 54.0167 296.478 56.95 296.478 60.35C296.478 63.75 297.111 66.7167 298.378 69.25C299.644 71.75 301.41 73.7 303.677 75.1C305.977 76.5 308.626 77.2 311.626 77.2Z"
+              },
+              "fill": {
+                "type": "value",
+                "value": "white"
+              },
+              "data-id": {
+                "type": "value",
+                "value": "0.0.1.0.4"
+              },
+              "data-node-id": {
+                "type": "value",
+                "value": "QJY8WdhwwDQ81emO5SeQE"
+              },
+              "data-component": {
+                "type": "value",
+                "value": "nordcraft_shared/nc-logo-wide"
+              },
+              "data-unset-toddle-styles": {
+                "type": "value",
+                "value": true
+              }
+            },
+            "style": {
+              "box-sizing": "border-box"
+            },
+            "events": {},
+            "classes": {},
+            "children": [],
+            "styleVariables": {}
+          },
+          "WAXsgwVHCU4uY66YF_N9K": {
+            "tag": "a",
+            "type": "element",
+            "attrs": {
+              "href": {
+                "type": "value",
+                "value": "https://nocodeprocode.com"
+              }
+            },
+            "style": {
+              "color": "#ffffff",
+              "display": "flex",
+              "font-size": "0.875rem",
+              "background": " #ffffff2e",
+              "align-items": "center",
+              "font-weight": "500",
+              "padding-top": "0.5rem",
+              "padding-left": "1rem",
+              "padding-right": "1rem",
+              "flex-direction": "row",
+              "padding-bottom": "0.5rem",
+              "justify-content": "center",
+              "border-top-left-radius": "0.5rem",
+              "border-top-right-radius": "0.5rem",
+              "border-bottom-left-radius": "0.5rem",
+              "border-bottom-right-radius": "0.5rem"
+            },
+            "events": {},
+            "classes": {},
+            "children": [
+              "5qa05j8x2dqF4ooa48Sz6"
+            ],
+            "variants": [],
+            "styleVariables": {}
+          },
+          "WT8tEcr7WbyV-KdvGnBhQ": {
+            "tag": "div",
+            "type": "element",
+            "attrs": {},
+            "style": {},
+            "events": {},
+            "classes": {},
+            "children": [
+              "_08-Ipb-2rEjtLJRcNdmI"
+            ]
+          },
+          "Wv7Uk0DenzrQQ6PPISZvn": {
+            "tag": "div",
+            "type": "element",
+            "attrs": {},
+            "style": {
+              "display": "flex",
+              "align-items": "center",
+              "border-style": "solid",
+              "border-width": "0",
+              "flex-direction": "row",
+              "justify-content": "space-between"
+            },
+            "events": {},
+            "classes": {},
+            "children": [
+              "MJY-Nhei30DAdGdfwjwd6",
+              "d0th7bidu140Iu9vuroAy"
+            ],
+            "variants": [],
+            "styleVariables": {}
+          },
+          "Y18jpA2adJofW0NrdpcE-": {
+            "tag": "div",
+            "type": "element",
+            "attrs": {},
+            "style": {
+              "gap": "1.5rem",
+              "color": "#ffffff",
+              "width": "100%",
+              "display": "flex",
+              "padding": "1.5rem",
+              "max-width": "56rem",
+              "background": " #1f1f1f",
+              "box-shadow": "0 1px 2px 0 rgba(0, 0, 0, 0.05)",
+              "margin-left": "auto",
+              "border-color": "var(--grey-800)",
+              "border-style": "solid",
+              "border-width": "2px",
+              "margin-right": "auto",
+              "flex-direction": "column",
+              "border-top-left-radius": "1rem",
+              "border-top-right-radius": "1rem",
+              "border-bottom-left-radius": "1rem",
+              "border-bottom-right-radius": "1rem"
+            },
+            "events": {},
+            "classes": {},
+            "children": [
+              "CZAdhUJ0v4g6UsZC_K9V1",
+              "-C3HkGaYvHSZg50YsUFPZ",
+              "oGS6JI2Sxifp4TjS6Wjp1",
+              "QH_cbEK6qoo3GSlIvPyTr",
+              "KIt71o7c09SzAwETja3x6"
+            ],
+            "variants": [],
+            "styleVariables": {}
+          },
+          "_08-Ipb-2rEjtLJRcNdmI": {
+            "tag": "svg",
+            "type": "element",
+            "attrs": {
+              "fill": {
+                "type": "value",
+                "value": "none"
+              },
+              "xmlns": {
+                "type": "value",
+                "value": "http://www.w3.org/2000/svg"
+              },
+              "data-id": {
+                "type": "value",
+                "value": "0.0.1.0"
+              },
+              "viewBox": {
+                "type": "value",
+                "value": "0 0 665 96"
+              },
+              "data-node-id": {
+                "type": "value",
+                "value": "root"
+              }
+            },
+            "style": {
+              "width": "13rem",
+              "box-sizing": "border-box"
+            },
+            "events": {},
+            "classes": {},
+            "children": [
+              "TANP4Y376tdfcJNYgqpIE",
+              "QKhuJSjETnIsMvLiM_RC8",
+              "7of48cDSlqSvnCqlonVTc",
+              "joMOqVxN-cjt6eChKaEjm",
+              "czEqai7VoXhiwhFs0-xBv",
+              "cDpESwCMlzSMM2wEQH4fG",
+              "IpFQ4jN_c-5X4cDbxftdh",
+              "tMaxGXPjNj758NqD68OP8",
+              "lQolrSPRnOOpKd2Ma3Gvk",
+              "4vNXNZZShhaUA-aR3YpvF",
+              "Q-eiaDuuEem1EtuwO7Quw"
+            ],
+            "styleVariables": {}
+          },
+          "bGFdZ5GuOg6S7UCmBOgA9": {
+            "tag": "svg",
+            "type": "element",
+            "attrs": {
+              "role": {
+                "type": "value",
+                "value": "img"
+              },
+              "width": {
+                "type": "value",
+                "value": 35
+              },
+              "xmlns": {
+                "type": "value",
+                "value": "http://www.w3.org/2000/svg"
+              },
+              "height": {
+                "type": "value",
+                "value": 35
+              },
+              "viewBox": {
+                "type": "value",
+                "value": "0 0 24 24"
+              },
+              "aria-hidden": {
+                "type": "value",
+                "value": "true"
+              },
+              "xmlns:xlink": {
+                "type": "value",
+                "value": "http://www.w3.org/1999/xlink"
+              },
+              "preserveAspectRatio": {
+                "type": "value",
+                "value": "xMidYMid meet"
+              },
+              "data-unset-toddle-styles": {
+                "type": "value",
+                "value": true
+              }
+            },
+            "style": {
+              "box-sizing": "border-box"
+            },
+            "events": {},
+            "classes": {},
+            "children": [
+              "dqIfTUpMLdNmN7P3GwnRy"
+            ],
+            "styleVariables": {}
+          },
+          "bjDfqvxNrocPya-sseWe5": {
+            "tag": "path",
+            "type": "element",
+            "attrs": {
+              "d": {
+                "type": "value",
+                "value": "M0 0h262v32.4H0z"
+              },
+              "fill": {
+                "type": "value",
+                "value": "#fff"
+              },
+              "data-unset-toddle-styles": {
+                "type": "value",
+                "value": true
+              }
+            },
+            "style": {
+              "box-sizing": "border-box"
+            },
+            "events": {},
+            "classes": {},
+            "children": [],
+            "styleVariables": {}
+          },
+          "cDpESwCMlzSMM2wEQH4fG": {
+            "tag": "path",
+            "type": "element",
+            "attrs": {
+              "d": {
+                "type": "value",
+                "value": "M232.798 86.8999H220V13.15H240.648L265.645 76.6007V13.15H278.493V86.8999H257.546L232.798 23.9879V86.8999Z"
+              },
+              "fill": {
+                "type": "value",
+                "value": "white"
+              },
+              "data-id": {
+                "type": "value",
+                "value": "0.0.1.0.5"
+              },
+              "data-node-id": {
+                "type": "value",
+                "value": "8vmHtmRbKdhwLPm7Ald1e"
+              },
+              "data-component": {
+                "type": "value",
+                "value": "nordcraft_shared/nc-logo-wide"
+              },
+              "data-unset-toddle-styles": {
+                "type": "value",
+                "value": true
+              }
+            },
+            "style": {
+              "box-sizing": "border-box"
+            },
+            "events": {},
+            "classes": {},
+            "children": [],
+            "styleVariables": {}
+          },
+          "copd2rOQ67AiDZijLP7GA": {
+            "type": "text",
+            "value": {
+              "type": "value",
+              "value": "Copy"
+            }
+          },
+          "czEqai7VoXhiwhFs0-xBv": {
+            "tag": "path",
+            "type": "element",
+            "attrs": {
+              "d": {
+                "type": "value",
+                "value": "M311.626 87.95C306.027 87.95 301.094 86.7833 296.828 84.45C292.562 82.0833 289.212 78.8167 286.779 74.65C284.379 70.4833 283.179 65.7167 283.179 60.35C283.179 54.95 284.379 50.2 286.779 46.1C289.212 41.9667 292.562 38.7334 296.828 36.4C301.094 34.0667 306.027 32.9 311.626 32.9C317.225 32.9 322.158 34.0667 326.424 36.4C330.69 38.7334 334.023 41.9667 336.423 46.1C338.856 50.2 340.073 54.95 340.073 60.35C340.073 65.7167 338.856 70.4833 336.423 74.65C334.023 78.8167 330.69 82.0833 326.424 84.45C322.158 86.7833 317.225 87.95 311.626 87.95ZM311.626 77.2C314.659 77.2 317.309 76.5 319.575 75.1C321.841 73.7 323.608 71.75 324.874 69.25C326.141 66.7167 326.774 63.75 326.774 60.35C326.774 56.95 326.141 54.0167 324.874 51.55C323.608 49.05 321.841 47.1167 319.575 45.75C317.309 44.3834 314.659 43.7 311.626 43.7C308.626 43.7 305.977 44.3834 303.677 45.75C301.41 47.1167 299.644 49.05 298.378 51.55C297.111 54.0167 296.478 56.95 296.478 60.35C296.478 63.75 297.111 66.7167 298.378 69.25C299.644 71.75 301.41 73.7 303.677 75.1C305.977 76.5 308.626 77.2 311.626 77.2Z"
+              },
+              "fill": {
+                "type": "value",
+                "value": "white"
+              },
+              "data-id": {
+                "type": "value",
+                "value": "0.0.1.0.4"
+              },
+              "data-node-id": {
+                "type": "value",
+                "value": "QJY8WdhwwDQ81emO5SeQE"
+              },
+              "data-component": {
+                "type": "value",
+                "value": "nordcraft_shared/nc-logo-wide"
+              },
+              "data-unset-toddle-styles": {
+                "type": "value",
+                "value": true
+              }
+            },
+            "style": {
+              "box-sizing": "border-box"
+            },
+            "events": {},
+            "classes": {},
+            "children": [],
+            "styleVariables": {}
+          },
+          "d0th7bidu140Iu9vuroAy": {
             "tag": "button",
             "type": "element",
             "attrs": {},
             "style": {
-              "color": "var(--grey-200, #E5E5E5)",
-              "width": "fit-content",
-              "cursor": "pointer",
-              "padding-top": "8px",
-              "padding-left": "8px",
-              "border-radius": "6px",
-              "padding-right": "8px",
-              "padding-bottom": "8px",
-              "background-color": "var(--blue-600, #2563EB)"
+              "color": "#ffffff",
+              "display": "flex",
+              "font-size": "0.75rem",
+              "background": " #ffffff0f",
+              "align-items": "center",
+              "padding-top": "0.25rem",
+              "border-style": "solid",
+              "border-width": "0",
+              "padding-left": "0.5rem",
+              "border-radius": "0.375rem",
+              "padding-right": "0.5rem",
+              "flex-direction": "row",
+              "padding-bottom": "0.25rem"
             },
-            "events": {},
-            "classes": {},
-            "children": ["RGFpys0-7b_IQ8SYApMAL"],
-            "variants": [
-              {
-                "hover": true,
-                "style": { "background-color": "var(--blue-500, #3B82F6)" }
+            "events": {
+              "click": {
+                "actions": [
+                  {
+                    "name": "@toddle/copyToClipboard",
+                    "label": "Copy to clipboard",
+                    "arguments": [
+                      {
+                        "name": "Value",
+                        "type": {
+                          "type": "String"
+                        },
+                        "formula": {
+                          "path": [
+                            "Variables",
+                            "nodes"
+                          ],
+                          "type": "path"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "trigger": "click"
               }
-            ],
-            "condition": {
-              "name": "@toddle/equals",
-              "type": "function",
-              "label": null,
-              "arguments": [
-                {
-                  "name": "First",
-                  "type": { "type": "Any" },
-                  "formula": {
-                    "path": ["URL parameters", "test"],
-                    "type": "path",
-                    "label": null
-                  }
-                },
-                {
-                  "name": "Second",
-                  "type": { "type": "Any" },
-                  "formula": { "type": "value", "value": null }
-                }
-              ],
-              "display_name": "Equals"
             },
+            "classes": {},
+            "children": [
+              "69vsmMvneYDRdmYRDeU4V",
+              "copd2rOQ67AiDZijLP7GA"
+            ],
+            "variants": [],
             "styleVariables": {}
           },
-          "D3FDz9GhM-ZyJChwJhxzK": {
-            "tag": "p",
+          "dqIfTUpMLdNmN7P3GwnRy": {
+            "tag": "path",
             "type": "element",
-            "attrs": {},
-            "style": { "color": "inherit", "display": "inline-block" },
+            "attrs": {
+              "d": {
+                "type": "value",
+                "value": "M8.59 16.59L13.17 12L8.59 7.41L10 6l6 6l-6 6z"
+              },
+              "fill": {
+                "type": "value",
+                "value": "currentColor"
+              },
+              "data-unset-toddle-styles": {
+                "type": "value",
+                "value": true
+              }
+            },
+            "style": {
+              "box-sizing": "border-box"
+            },
             "events": {},
             "classes": {},
-            "children": ["z5I8Rnxfdy2McmsNLlMhD"],
+            "children": [],
             "styleVariables": {}
           },
-          "EEfz_0R8BhOvKve4YgCi6": {
-            "type": "text",
-            "value": {
-              "name": "@toddle/concatenate",
-              "type": "function",
-              "arguments": [
-                {
-                  "name": "0",
-                  "type": {
-                    "type": "Union",
-                    "types": [
-                      { "type": "String" },
-                      { "type": "Array", "ofType": { "type": "Any" } }
-                    ]
-                  },
-                  "formula": { "type": "value", "value": "Wow API: " }
-                },
-                {
-                  "name": "0",
-                  "type": {
-                    "type": "Union",
-                    "types": [
-                      { "type": "String" },
-                      { "type": "Array", "ofType": { "type": "Any" } }
-                    ]
-                  },
-                  "formula": {
-                    "path": ["Apis", "WOW API", "data", "0", "movie"],
-                    "type": "path"
-                  }
-                }
-              ],
-              "display_name": "Concatenate",
-              "variableArguments": true
-            }
-          },
-          "RGFpys0-7b_IQ8SYApMAL": {
-            "type": "text",
-            "value": {
-              "type": "value",
-              "value": "Element which is only visible when \"test\" query parameter doesn't have a value"
-            }
-          },
-          "c8DBGzXyJIHSfoguEo7OL": {
-            "type": "text",
-            "value": { "type": "value", "value": "Hello world" }
-          },
-          "co7vEt15EK6qGAVA2PGaM": {
-            "tag": "p",
-            "type": "element",
-            "attrs": {},
-            "style": { "color": "inherit", "display": "inline-block" },
-            "events": {},
-            "classes": {},
-            "children": ["EEfz_0R8BhOvKve4YgCi6"],
-            "styleVariables": {}
-          },
-          "p44ree-FsxJKSeiWKWQpa": {
-            "tag": "h1",
+          "fw6ypIyyw2Q1lFjI6vYgV": {
+            "tag": "div",
             "type": "element",
             "attrs": {},
             "style": {
-              "color": "var(--grey-200, #E5E5E5)",
-              "font-size": "2.25rem",
-              "font-weight": "var(--font-weight-bold)"
+              "gap": "0rem",
+              "display": "flex",
+              "align-items": "center",
+              "flex-direction": "row",
+              "justify-content": "start"
             },
             "events": {},
             "classes": {},
-            "children": ["c8DBGzXyJIHSfoguEo7OL"],
+            "children": [
+              "kH_mzG4CUP_gD4NqgJ7IT",
+              "bGFdZ5GuOg6S7UCmBOgA9",
+              "WT8tEcr7WbyV-KdvGnBhQ"
+            ]
+          },
+          "jQyqGX-HKHIhPjTctaxbU": {
+            "tag": "path",
+            "type": "element",
+            "attrs": {
+              "d": {
+                "type": "value",
+                "value": "M80.996 13.652h-4.712v9.12c0 2.432 1.596 2.394 4.712 2.242V28.7c-6.308.76-8.816-.988-8.816-5.928v-9.12h-3.496V9.7h3.496V4.596l4.104-1.216V9.7h4.712v3.952zM98.958 9.7h4.104v19h-4.104v-2.736c-1.444 2.014-3.686 3.23-6.65 3.23-5.168 0-9.462-4.37-9.462-9.994 0-5.662 4.294-9.994 9.462-9.994 2.964 0 5.206 1.216 6.65 3.192V9.7zm-6.004 15.58c3.42 0 6.004-2.546 6.004-6.08 0-3.534-2.584-6.08-6.004-6.08-3.42 0-6.004 2.546-6.004 6.08 0 3.534 2.584 6.08 6.004 6.08zm16.948-18.43c-1.444 0-2.622-1.216-2.622-2.622a2.627 2.627 0 012.622-2.622 2.627 2.627 0 012.622 2.622c0 1.406-1.178 2.622-2.622 2.622zM107.85 28.7v-19h4.104v19h-4.104zm8.854 0V.96h4.104V28.7h-4.104zm30.742-19h4.332l-5.966 19h-4.028l-3.952-12.806-3.99 12.806h-4.028l-5.966-19h4.332l3.686 13.11 3.99-13.11h3.914l3.952 13.11 3.724-13.11zm9.424-2.85c-1.444 0-2.622-1.216-2.622-2.622a2.627 2.627 0 012.622-2.622 2.627 2.627 0 012.622 2.622c0 1.406-1.178 2.622-2.622 2.622zm-2.052 21.85v-19h4.104v19h-4.104zm18.848-19.494c4.256 0 7.296 2.888 7.296 7.828V28.7h-4.104V17.452c0-2.888-1.672-4.408-4.256-4.408-2.698 0-4.826 1.596-4.826 5.472V28.7h-4.104v-19h4.104v2.432c1.254-1.976 3.306-2.926 5.89-2.926zM200.418 2.1h4.104v26.6h-4.104v-2.736c-1.444 2.014-3.686 3.23-6.65 3.23-5.168 0-9.462-4.37-9.462-9.994 0-5.662 4.294-9.994 9.462-9.994 2.964 0 5.206 1.216 6.65 3.192V2.1zm-6.004 23.18c3.42 0 6.004-2.546 6.004-6.08 0-3.534-2.584-6.08-6.004-6.08-3.42 0-6.004 2.546-6.004 6.08 0 3.534 2.584 6.08 6.004 6.08zm23.864 3.914c-5.738 0-10.032-4.37-10.032-9.994 0-5.662 4.294-9.994 10.032-9.994 3.724 0 6.954 1.938 8.474 4.902l-3.534 2.052c-.836-1.786-2.698-2.926-4.978-2.926-3.344 0-5.89 2.546-5.89 5.966 0 3.42 2.546 5.966 5.89 5.966 2.28 0 4.142-1.178 5.054-2.926l3.534 2.014c-1.596 3.002-4.826 4.94-8.55 4.94zm15.314-14.25c0 3.458 10.222 1.368 10.222 8.398 0 3.8-3.306 5.852-7.41 5.852-3.8 0-6.536-1.71-7.752-4.446l3.534-2.052c.608 1.71 2.128 2.736 4.218 2.736 1.824 0 3.23-.608 3.23-2.128 0-3.382-10.222-1.482-10.222-8.284 0-3.572 3.078-5.814 6.954-5.814 3.116 0 5.7 1.444 7.03 3.952l-3.458 1.938c-.684-1.482-2.014-2.166-3.572-2.166-1.482 0-2.774.646-2.774 2.014zm17.518 0c0 3.458 10.222 1.368 10.222 8.398 0 3.8-3.306 5.852-7.41 5.852-3.8 0-6.536-1.71-7.752-4.446l3.534-2.052c.608 1.71 2.128 2.736 4.218 2.736 1.824 0 3.23-.608 3.23-2.128 0-3.382-10.222-1.482-10.222-8.284 0-3.572 3.078-5.814 6.954-5.814 3.116 0 5.7 1.444 7.03 3.952l-3.458 1.938c-.684-1.482-2.014-2.166-3.572-2.166-1.482 0-2.774.646-2.774 2.014z"
+              },
+              "fill": {
+                "type": "value",
+                "value": "currentColor"
+              }
+            },
+            "style": {
+              "box-sizing": "border-box"
+            },
+            "events": {},
+            "classes": {},
+            "children": [],
             "styleVariables": {}
           },
-          "pK1rq0usjmjwt2RZhiTFV": {
+          "jWFcyL-SoItnBgHozAOAF": {
+            "tag": "path",
+            "type": "element",
+            "attrs": {
+              "d": {
+                "type": "value",
+                "value": "M543.034 86.15C546.034 87.3833 549.517 88 553.483 88C556.816 88 559.899 87.5833 562.732 86.75C565.565 85.9167 567.998 84.75 570.031 83.25C570.951 82.5674 571.765 81.8353 572.473 81.0537C572.622 81.7823 572.807 82.4811 573.03 83.15C573.364 84.05 573.73 84.85 574.13 85.55C574.564 86.2167 574.897 86.6667 575.13 86.9H588.129C587.862 86.6333 587.495 86.1333 587.029 85.4C586.562 84.6667 586.162 83.7667 585.829 82.7C585.562 81.7333 585.379 80.65 585.279 79.45C585.212 78.2167 585.179 76.9667 585.179 75.7V55.7V53.6V51.5C585.179 47.3667 584.029 43.9167 581.729 41.15C579.43 38.3834 576.38 36.3167 572.581 34.95C568.781 33.5834 564.598 32.9 560.032 32.9C555.132 32.9 550.75 33.65 546.883 35.15C543.017 36.65 539.968 38.85 537.735 41.75C535.535 44.6167 534.435 48.1334 534.435 52.3H547.433C547.433 49.2334 548.5 47 550.633 45.6C552.799 44.1667 555.899 43.45 559.932 43.45C563.765 43.45 566.731 44.0834 568.831 45.35C570.931 46.6167 571.981 48.4167 571.981 50.75V50.8V50.85C571.981 52.0834 570.764 52.9834 568.331 53.55C565.931 54.0834 561.698 54.65 555.632 55.25C551.533 55.6167 547.8 56.45 544.434 57.75C541.068 59.0167 538.384 60.8333 536.385 63.2C534.418 65.5333 533.435 68.5167 533.435 72.15C533.435 75.4833 534.285 78.3333 535.985 80.7C537.685 83.0667 540.034 84.8833 543.034 86.15ZM564.281 76.25C561.948 77.1833 559.415 77.65 556.682 77.65C553.316 77.65 550.8 77.1 549.133 76C547.467 74.9 546.633 73.25 546.633 71.05C546.633 68.7833 547.617 67.15 549.583 66.15C551.583 65.15 554.549 64.4667 558.482 64.1C561.548 63.8 564.581 63.4 567.581 62.9C569.208 62.6107 570.708 62.2821 572.081 61.9143V64.4C572.081 67.4667 571.364 69.9833 569.931 71.95C568.498 73.8833 566.614 75.3167 564.281 76.25Z"
+              },
+              "fill": {
+                "type": "value",
+                "value": "white"
+              },
+              "data-id": {
+                "type": "value",
+                "value": "0.0.1.0.7"
+              },
+              "clip-rule": {
+                "type": "value",
+                "value": "evenodd"
+              },
+              "fill-rule": {
+                "type": "value",
+                "value": "evenodd"
+              },
+              "data-node-id": {
+                "type": "value",
+                "value": "gcNPhvuXCjDRZTgs1uNXp"
+              },
+              "data-component": {
+                "type": "value",
+                "value": "nordcraft_shared/nc-logo-wide"
+              },
+              "data-unset-toddle-styles": {
+                "type": "value",
+                "value": true
+              }
+            },
+            "style": {
+              "box-sizing": "border-box"
+            },
+            "events": {},
+            "classes": {},
+            "children": [],
+            "styleVariables": {}
+          },
+          "joMOqVxN-cjt6eChKaEjm": {
+            "tag": "path",
+            "type": "element",
+            "attrs": {
+              "d": {
+                "type": "value",
+                "value": "M467.195 88C461.596 88 456.646 86.85 452.347 84.55C448.047 82.25 444.681 79.0167 442.248 74.85C439.815 70.6833 438.598 65.8 438.598 60.2C438.598 54.6334 439.815 49.8 442.248 45.7C444.681 41.6 448.047 38.45 452.347 36.25C456.646 34.0167 461.596 32.9 467.195 32.9C471.395 32.9 475.111 33.5167 478.344 34.75C481.577 35.9834 484.293 37.6334 486.493 39.7C488.726 41.7334 490.426 43.9834 491.592 46.45C492.759 48.8834 493.342 51.3167 493.342 53.75C493.342 53.8167 493.342 53.8834 493.342 53.95C493.342 54.0167 493.342 54.0834 493.342 54.15H480.294C480.294 53.9834 480.277 53.8 480.244 53.6C480.21 53.4 480.177 53.2 480.144 53C479.877 51.3 479.194 49.7667 478.094 48.4C476.994 47 475.527 45.8834 473.694 45.05C471.861 44.2167 469.645 43.8 467.045 43.8C464.279 43.8 461.746 44.4167 459.446 45.65C457.18 46.85 455.363 48.6667 453.997 51.1C452.663 53.5334 451.997 56.5667 451.997 60.2C451.997 63.8 452.663 66.8667 453.997 69.4C455.33 71.9 457.13 73.8167 459.396 75.15C461.696 76.45 464.245 77.1 467.045 77.1C470.011 77.1 472.428 76.65 474.294 75.75C476.194 74.8167 477.627 73.5833 478.594 72.05C479.56 70.4833 480.11 68.7833 480.244 66.95H493.342C493.342 69.4167 492.775 71.9 491.642 74.4C490.509 76.8667 488.843 79.1333 486.643 81.2C484.443 83.2667 481.71 84.9167 478.444 86.15C475.211 87.3833 471.461 88 467.195 88Z"
+              },
+              "fill": {
+                "type": "value",
+                "value": "white"
+              },
+              "data-id": {
+                "type": "value",
+                "value": "0.0.1.0.3"
+              },
+              "data-node-id": {
+                "type": "value",
+                "value": "1rn0qvs0ISPL2xvhHNadS"
+              },
+              "data-component": {
+                "type": "value",
+                "value": "nordcraft_shared/nc-logo-wide"
+              },
+              "data-unset-toddle-styles": {
+                "type": "value",
+                "value": true
+              }
+            },
+            "style": {
+              "box-sizing": "border-box"
+            },
+            "events": {},
+            "classes": {},
+            "children": [],
+            "styleVariables": {}
+          },
+          "kH_mzG4CUP_gD4NqgJ7IT": {
+            "tag": "svg",
+            "type": "element",
+            "attrs": {
+              "fill": {
+                "type": "value",
+                "value": "none"
+              },
+              "xmlns": {
+                "type": "value",
+                "value": "http://www.w3.org/2000/svg"
+              },
+              "viewBox": {
+                "type": "value",
+                "value": "0 0 262 33"
+              }
+            },
+            "style": {
+              "width": "13rem",
+              "box-sizing": "border-box"
+            },
+            "events": {},
+            "classes": {},
+            "children": [
+              "OIhnsp2DzxJjf6TU4Fou8",
+              "2UGvqzOT_zgECr-jLGiyy"
+            ],
+            "styleVariables": {}
+          },
+          "lQolrSPRnOOpKd2Ma3Gvk": {
+            "tag": "path",
+            "type": "element",
+            "attrs": {
+              "d": {
+                "type": "value",
+                "value": "M652.651 87.9C650.752 87.9 648.819 87.7166 646.852 87.35C644.886 86.9833 643.086 86.3 641.453 85.3C639.82 84.3 638.503 82.8333 637.503 80.9C636.503 78.9666 636.003 76.4166 636.003 73.25V71.05V68.7V44.3L610.985 44.3V86.8999H597.837V44.3H586.588V33.8H597.837V29.05C597.837 25.95 598.253 23.2333 599.087 20.9C599.92 18.5333 601.053 16.5333 602.486 14.9C603.919 13.2667 605.553 11.95 607.386 10.95C609.252 9.91667 611.235 9.16666 613.335 8.7C615.468 8.23333 617.585 8 619.684 8C621.684 8 623.201 8.11667 624.234 8.35C625.3 8.58333 626.017 8.78333 626.383 8.95V19.55C625.984 19.4167 625.284 19.2667 624.284 19.1C623.317 18.9 622.267 18.8 621.134 18.8C619.101 18.8 617.418 19.1 616.085 19.7C614.752 20.2667 613.718 21.0667 612.985 22.1C612.252 23.1333 611.735 24.3333 611.435 25.7C611.135 27.0333 610.985 28.5 610.985 30.1V33.8L628.554 33.8C630.287 33.8 631.654 33.7333 632.654 33.6C633.654 33.4333 634.387 33.0667 634.854 32.5C635.32 31.9333 635.62 31.05 635.753 29.85C635.92 28.6167 636.003 26.9167 636.003 24.75V16.3H649.202V33.8H665V44.3H649.202V65.6V67.5V69.25C649.202 71.7166 649.502 73.7 650.102 75.2C650.702 76.7 652.118 77.45 654.351 77.45C655.418 77.45 656.418 77.35 657.351 77.15C658.317 76.95 659.034 76.75 659.501 76.55V86.85C658.867 87.0833 657.951 87.3166 656.751 87.55C655.551 87.7833 654.185 87.9 652.651 87.9Z"
+              },
+              "fill": {
+                "type": "value",
+                "value": "white"
+              },
+              "data-id": {
+                "type": "value",
+                "value": "0.0.1.0.8"
+              },
+              "data-node-id": {
+                "type": "value",
+                "value": "kYTZxYUluQglPWiX4QfFp"
+              },
+              "data-component": {
+                "type": "value",
+                "value": "nordcraft_shared/nc-logo-wide"
+              },
+              "data-unset-toddle-styles": {
+                "type": "value",
+                "value": true
+              }
+            },
+            "style": {
+              "box-sizing": "border-box"
+            },
+            "events": {},
+            "classes": {},
+            "children": [],
+            "styleVariables": {}
+          },
+          "lmqGxUYGi4_WgV8dDUqaP": {
+            "tag": "button",
+            "type": "element",
+            "attrs": {},
+            "style": {
+              "color": "var(--purple-500)",
+              "width": "fit-content",
+              "font-size": "12px"
+            },
+            "events": {
+              "click": {
+                "actions": [
+                  {
+                    "name": "@toddle/copyToClipboard",
+                    "label": "Copy to clipboard",
+                    "arguments": [
+                      {
+                        "name": "Value",
+                        "type": {
+                          "type": "String"
+                        },
+                        "formula": {
+                          "type": "value",
+                          "value": "Make a tailwind HTML element in a modern clean SaaS Vercel / ShadcnUI design Follow ShadcnUI's Design Style Strictly, unless the user specifies a different UI! - Only give me the requested element's HTML (no doctype or container etc)  Style requirements:  No React, use plain HTML with Tailwind classes Follow Vercel/ShadcnUI style guidelines, unless the user requests another style Use only standard Tailwind classes (no custom values) NO HTML comments anywhere in the output STYLING RULES:  Include shadcn/ui's default base component styles, unless the user requests another style Include default interactive states (focus, hover, disabled) For borders: use border-gray-200 for light mode or border-gray-800 for dark mode NO ADDITIONAL/CUSTOM styles beyond shadcn/ui defaults, unless the user requests another style NO VARIANTS or extra state classes beyond the default style Layout Requirements:  Root/main container must use \"w-full\" with appropriate max-width constraints (e.g. max-w-7xl mx-auto) Content sections/widgets should use \"w-full\" with suitable max-width (e.g. max-w-xl for content, max-w-md for forms) Dashboard layouts should use responsive grid patterns Forms should be constrained within reasonable max-widths Flexbox Requirements:  All non-text elements (buttons, containers, divs etc) must use flex by default unless grid is specified Buttons must use \"flex\" not \"inline-flex\" Divs must use \"flex\" not \"block\" where appropriate for layout Use flex-1 only when element should expand to fill space Stack flex items vertically (flex-col) on mobile by default Apply appropriate flex properties (justify-between, items-center etc) based on design needs Nested flex containers should have clear hierarchy with proper gap spacing Responsive Design:  Use mobile-first approach with sm:, md:, lg:, xl: breakpoints Implement responsive grids with grid-cols-1 sm:grid-cols-2 etc Stack elements vertically on mobile, horizontal on larger screens Adjust text sizes, spacing, and padding responsively Use flex-col sm:flex-row for layout changes Ensure readable text width on all screens Handle navigation/menus responsively Maintain touch-friendly tap targets (min 44px) Spacing:  Always use flexbox with explicit gap classes between related elements Use gap-2 (0.5rem) for tight spacing Use gap-4 (1rem) for standard spacing Use gap-6 (1.5rem) for loose spacing Never use margins or padding for spacing between elements Only use padding for internal element spacing Forms:  Always wrap label + input pairs in a flex div Always add gap-2 between label and input Add gap-4 between different form groups"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "trigger": "click"
+              }
+            },
+            "classes": {},
+            "children": [
+              "E_qCjQAVFjR1kh-960mOQ"
+            ],
+            "styleVariables": {}
+          },
+          "ntNdUKH2zoWiQmlEenWYs": {
+            "tag": "path",
+            "type": "element",
+            "attrs": {
+              "d": {
+                "type": "value",
+                "value": "M467.195 88C461.596 88 456.646 86.85 452.347 84.55C448.047 82.25 444.681 79.0167 442.248 74.85C439.815 70.6833 438.598 65.8 438.598 60.2C438.598 54.6334 439.815 49.8 442.248 45.7C444.681 41.6 448.047 38.45 452.347 36.25C456.646 34.0167 461.596 32.9 467.195 32.9C471.395 32.9 475.111 33.5167 478.344 34.75C481.577 35.9834 484.293 37.6334 486.493 39.7C488.726 41.7334 490.426 43.9834 491.592 46.45C492.759 48.8834 493.342 51.3167 493.342 53.75C493.342 53.8167 493.342 53.8834 493.342 53.95C493.342 54.0167 493.342 54.0834 493.342 54.15H480.294C480.294 53.9834 480.277 53.8 480.244 53.6C480.21 53.4 480.177 53.2 480.144 53C479.877 51.3 479.194 49.7667 478.094 48.4C476.994 47 475.527 45.8834 473.694 45.05C471.861 44.2167 469.645 43.8 467.045 43.8C464.279 43.8 461.746 44.4167 459.446 45.65C457.18 46.85 455.363 48.6667 453.997 51.1C452.663 53.5334 451.997 56.5667 451.997 60.2C451.997 63.8 452.663 66.8667 453.997 69.4C455.33 71.9 457.13 73.8167 459.396 75.15C461.696 76.45 464.245 77.1 467.045 77.1C470.011 77.1 472.428 76.65 474.294 75.75C476.194 74.8167 477.627 73.5833 478.594 72.05C479.56 70.4833 480.11 68.7833 480.244 66.95H493.342C493.342 69.4167 492.775 71.9 491.642 74.4C490.509 76.8667 488.843 79.1333 486.643 81.2C484.443 83.2667 481.71 84.9167 478.444 86.15C475.211 87.3833 471.461 88 467.195 88Z"
+              },
+              "fill": {
+                "type": "value",
+                "value": "white"
+              },
+              "data-id": {
+                "type": "value",
+                "value": "0.0.1.0.3"
+              },
+              "data-node-id": {
+                "type": "value",
+                "value": "1rn0qvs0ISPL2xvhHNadS"
+              },
+              "data-component": {
+                "type": "value",
+                "value": "nordcraft_shared/nc-logo-wide"
+              },
+              "data-unset-toddle-styles": {
+                "type": "value",
+                "value": true
+              }
+            },
+            "style": {
+              "box-sizing": "border-box"
+            },
+            "events": {},
+            "classes": {},
+            "children": [],
+            "styleVariables": {}
+          },
+          "oGS6JI2Sxifp4TjS6Wjp1": {
+            "tag": "button",
+            "type": "element",
+            "attrs": {},
+            "style": {
+              "gap": "0.5rem",
+              "color": "#fff",
+              "width": "100%",
+              "height": "3rem",
+              "display": "flex",
+              "font-size": "1.05rem",
+              "background": " var(--purple-700)",
+              "transition": "all 200ms ease  ",
+              "align-items": "center",
+              "font-weight": "500",
+              "padding-top": "0.5rem",
+              "border-color": "var(--purple-500)",
+              "border-style": "solid",
+              "border-width": "2px",
+              "padding-left": "1rem",
+              "padding-right": "1rem",
+              "flex-direction": "row",
+              "letter-spacing": "-0.2px",
+              "padding-bottom": "0.5rem",
+              "justify-content": "center",
+              "border-top-left-radius": "0.75rem",
+              "border-top-right-radius": "0.75rem",
+              "border-bottom-left-radius": "0.75rem",
+              "border-bottom-right-radius": "0.75rem"
+            },
+            "events": {
+              "click": {
+                "actions": [
+                  {
+                    "key": "tailwindToToddle",
+                    "name": "tailwindToToddle",
+                    "events": {
+                      "data": {
+                        "actions": [
+                          {
+                            "data": {
+                              "name": "classCleanup",
+                              "type": "function",
+                              "arguments": [
+                                {
+                                  "name": "nodes",
+                                  "type": {
+                                    "type": "Unknown"
+                                  },
+                                  "formula": {
+                                    "name": "@toddle/encodeJSON",
+                                    "type": "function",
+                                    "arguments": [
+                                      {
+                                        "name": "Data",
+                                        "type": {
+                                          "type": "Any"
+                                        },
+                                        "formula": {
+                                          "type": "object",
+                                          "arguments": [
+                                            {
+                                              "name": "type",
+                                              "formula": {
+                                                "name": "@toddle/string",
+                                                "type": "function",
+                                                "arguments": [
+                                                  {
+                                                    "name": "Input",
+                                                    "formula": {
+                                                      "type": "value",
+                                                      "value": "nodes"
+                                                    }
+                                                  }
+                                                ],
+                                                "display_name": "String"
+                                              }
+                                            },
+                                            {
+                                              "name": "nodes",
+                                              "formula": {
+                                                "path": [
+                                                  "Event"
+                                                ],
+                                                "type": "path"
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      },
+                                      {
+                                        "name": "Indent",
+                                        "type": {
+                                          "type": "Number"
+                                        },
+                                        "formula": {
+                                          "type": "value",
+                                          "value": 2
+                                        }
+                                      }
+                                    ],
+                                    "display_name": "Encode JSON"
+                                  }
+                                }
+                              ]
+                            },
+                            "type": "SetVariable",
+                            "variable": "nodes"
+                          }
+                        ],
+                        "trigger": "data",
+                        "dummyEvent": "<html/>"
+                      }
+                    },
+                    "version": 2,
+                    "arguments": [
+                      {
+                        "name": "html",
+                        "type": {
+                          "type": "String"
+                        },
+                        "formula": {
+                          "path": [
+                            "Variables",
+                            "html"
+                          ],
+                          "type": "path"
+                        }
+                      }
+                    ],
+                    "description": ""
+                  }
+                ],
+                "trigger": "click"
+              }
+            },
+            "classes": {},
+            "children": [
+              "w0kxuFVtCp24i47wQO7rR",
+              "rMxs4tyaj3A2xpF-jgWV7"
+            ],
+            "variants": [
+              {
+                "style": {
+                  "width": "auto"
+                },
+                "mediaQuery": {
+                  "min-width": "640px"
+                }
+              },
+              {
+                "style": {
+                  "transform": "scale(0.99, 0.99)"
+                },
+                "active": true
+              }
+            ],
+            "styleVariables": {}
+          },
+          "oGuwpZvqnkuiIcCA2bs9r": {
+            "tag": "path",
+            "type": "element",
+            "attrs": {
+              "d": {
+                "type": "value",
+                "value": "M344.952 86.9V33.8H358.1V40.9372C360.608 37.1666 363.816 35.0667 365.949 34.2C368.082 33.3334 370.515 32.9 373.248 32.9C375.415 32.9 377.115 33.0667 378.348 33.4C379.614 33.7 380.398 33.95 380.697 34.15L378.298 46.2C377.964 45.9667 377.281 45.6834 376.248 45.35C375.248 44.9834 373.898 44.8 372.198 44.8C369.499 44.8 367.232 45.2667 365.399 46.2C363.599 47.1 362.166 48.3334 361.1 49.9C360.033 51.4334 359.267 53.1334 358.8 55C358.333 56.8334 358.1 58.6667 358.1 60.5V86.9H344.952Z"
+              },
+              "fill": {
+                "type": "value",
+                "value": "white"
+              },
+              "data-id": {
+                "type": "value",
+                "value": "0.0.1.0.6"
+              },
+              "data-node-id": {
+                "type": "value",
+                "value": "3YKpHnSRm7m28KPB17tR9"
+              },
+              "data-component": {
+                "type": "value",
+                "value": "nordcraft_shared/nc-logo-wide"
+              },
+              "data-unset-toddle-styles": {
+                "type": "value",
+                "value": true
+              }
+            },
+            "style": {
+              "box-sizing": "border-box"
+            },
+            "events": {},
+            "classes": {},
+            "children": [],
+            "styleVariables": {}
+          },
+          "quHXFN6w-_MNBtPY9A4Vl": {
+            "tag": "path",
+            "type": "element",
+            "attrs": {
+              "d": {
+                "type": "value",
+                "value": "M27 0c-7.2 0-11.7 3.6-13.5 10.8 2.7-3.6 5.85-4.95 9.45-4.05 2.054.513 3.522 2.004 5.147 3.653C30.744 13.09 33.808 16.2 40.5 16.2c7.2 0 11.7-3.6 13.5-10.8-2.7 3.6-5.85 4.95-9.45 4.05-2.054-.513-3.522-2.004-5.147-3.653C36.756 3.11 33.692 0 27 0zM13.5 16.2C6.3 16.2 1.8 19.8 0 27c2.7-3.6 5.85-4.95 9.45-4.05 2.054.514 3.522 2.004 5.147 3.653C17.244 29.29 20.308 32.4 27 32.4c7.2 0 11.7-3.6 13.5-10.8-2.7 3.6-5.85 4.95-9.45 4.05-2.054-.513-3.522-2.004-5.147-3.653C23.256 19.31 20.192 16.2 13.5 16.2z"
+              },
+              "fill": {
+                "type": "value",
+                "value": "currentColor"
+              }
+            },
+            "style": {
+              "box-sizing": "border-box"
+            },
+            "events": {},
+            "classes": {},
+            "children": [],
+            "styleVariables": {}
+          },
+          "rMxs4tyaj3A2xpF-jgWV7": {
+            "tag": "svg",
+            "type": "element",
+            "attrs": {
+              "fill": {
+                "type": "value",
+                "value": "none"
+              },
+              "xmlns": {
+                "type": "value",
+                "value": "http://www.w3.org/2000/svg"
+              },
+              "data-id": {
+                "type": "value",
+                "value": "0.0.1.0"
+              },
+              "viewBox": {
+                "type": "value",
+                "value": "0 0 665 96"
+              },
+              "data-node-id": {
+                "type": "value",
+                "value": "root"
+              },
+              "data-unset-toddle-styles": {
+                "type": "value",
+                "value": true
+              }
+            },
+            "style": {
+              "width": "7rem",
+              "box-sizing": "border-box"
+            },
+            "events": {},
+            "classes": {},
+            "children": [
+              "wpCK2nD2xr5t8bxsIbeBv",
+              "rhnwsIQahW1hHsGZKt6Da",
+              "LNH1kuSNrElHSnFk3KuTZ",
+              "ntNdUKH2zoWiQmlEenWYs",
+              "TPSubGmpbwuOTHi3XcY60",
+              "BpLRdkxhK7RzbVJNBQ9HW",
+              "oGuwpZvqnkuiIcCA2bs9r",
+              "jWFcyL-SoItnBgHozAOAF",
+              "HieB4c5A-6V3PFdA2qH8E",
+              "4dhVfV0XmZkgglPeq7cKr",
+              "2ZG73oVOWn63qWQyenDqb"
+            ],
+            "styleVariables": {}
+          },
+          "rhnwsIQahW1hHsGZKt6Da": {
+            "tag": "path",
+            "type": "element",
+            "attrs": {
+              "d": {
+                "type": "value",
+                "value": "M125.665 69.7964L119.891 57.2404L141.9 9.42857L172 74.8163L146.005 65.4043V85.7143H137.795V65.4043L125.665 69.7964Z"
+              },
+              "fill": {
+                "type": "value",
+                "value": "white"
+              },
+              "data-id": {
+                "type": "value",
+                "value": "0.0.1.0.1"
+              },
+              "data-node-id": {
+                "type": "value",
+                "value": "v4bVAY3_mbQekxNq7JRls"
+              },
+              "data-component": {
+                "type": "value",
+                "value": "nordcraft_shared/nc-logo-wide"
+              },
+              "data-unset-toddle-styles": {
+                "type": "value",
+                "value": true
+              }
+            },
+            "style": {
+              "box-sizing": "border-box"
+            },
+            "events": {},
+            "classes": {},
+            "children": [],
+            "styleVariables": {}
+          },
+          "tMaxGXPjNj758NqD68OP8": {
+            "tag": "path",
+            "type": "element",
+            "attrs": {
+              "d": {
+                "type": "value",
+                "value": "M543.034 86.15C546.034 87.3833 549.517 88 553.483 88C556.816 88 559.899 87.5833 562.732 86.75C565.565 85.9167 567.998 84.75 570.031 83.25C570.951 82.5674 571.765 81.8353 572.473 81.0537C572.622 81.7823 572.807 82.4811 573.03 83.15C573.364 84.05 573.73 84.85 574.13 85.55C574.564 86.2167 574.897 86.6667 575.13 86.9H588.129C587.862 86.6333 587.495 86.1333 587.029 85.4C586.562 84.6667 586.162 83.7667 585.829 82.7C585.562 81.7333 585.379 80.65 585.279 79.45C585.212 78.2167 585.179 76.9667 585.179 75.7V55.7V53.6V51.5C585.179 47.3667 584.029 43.9167 581.729 41.15C579.43 38.3834 576.38 36.3167 572.581 34.95C568.781 33.5834 564.598 32.9 560.032 32.9C555.132 32.9 550.75 33.65 546.883 35.15C543.017 36.65 539.968 38.85 537.735 41.75C535.535 44.6167 534.435 48.1334 534.435 52.3H547.433C547.433 49.2334 548.5 47 550.633 45.6C552.799 44.1667 555.899 43.45 559.932 43.45C563.765 43.45 566.731 44.0834 568.831 45.35C570.931 46.6167 571.981 48.4167 571.981 50.75V50.8V50.85C571.981 52.0834 570.764 52.9834 568.331 53.55C565.931 54.0834 561.698 54.65 555.632 55.25C551.533 55.6167 547.8 56.45 544.434 57.75C541.068 59.0167 538.384 60.8333 536.385 63.2C534.418 65.5333 533.435 68.5167 533.435 72.15C533.435 75.4833 534.285 78.3333 535.985 80.7C537.685 83.0667 540.034 84.8833 543.034 86.15ZM564.281 76.25C561.948 77.1833 559.415 77.65 556.682 77.65C553.316 77.65 550.8 77.1 549.133 76C547.467 74.9 546.633 73.25 546.633 71.05C546.633 68.7833 547.617 67.15 549.583 66.15C551.583 65.15 554.549 64.4667 558.482 64.1C561.548 63.8 564.581 63.4 567.581 62.9C569.208 62.6107 570.708 62.2821 572.081 61.9143V64.4C572.081 67.4667 571.364 69.9833 569.931 71.95C568.498 73.8833 566.614 75.3167 564.281 76.25Z"
+              },
+              "fill": {
+                "type": "value",
+                "value": "white"
+              },
+              "data-id": {
+                "type": "value",
+                "value": "0.0.1.0.7"
+              },
+              "clip-rule": {
+                "type": "value",
+                "value": "evenodd"
+              },
+              "fill-rule": {
+                "type": "value",
+                "value": "evenodd"
+              },
+              "data-node-id": {
+                "type": "value",
+                "value": "gcNPhvuXCjDRZTgs1uNXp"
+              },
+              "data-component": {
+                "type": "value",
+                "value": "nordcraft_shared/nc-logo-wide"
+              },
+              "data-unset-toddle-styles": {
+                "type": "value",
+                "value": true
+              }
+            },
+            "style": {
+              "box-sizing": "border-box"
+            },
+            "events": {},
+            "classes": {},
+            "children": [],
+            "styleVariables": {}
+          },
+          "u50IYq9i3Fu09uEiF12Bs": {
+            "tag": "svg",
+            "type": "element",
+            "attrs": {
+              "fill": {
+                "type": "value",
+                "value": "none"
+              },
+              "xmlns": {
+                "type": "value",
+                "value": "http://www.w3.org/2000/svg"
+              },
+              "stroke": {
+                "type": "value",
+                "value": "currentColor"
+              },
+              "viewBox": {
+                "type": "value",
+                "value": "0 0 24 24"
+              }
+            },
+            "style": {
+              "color": "#ffffff",
+              "width": "1.5rem",
+              "height": "1.5rem",
+              "display": "block",
+              "flex-shrink": "0",
+              "border-style": "solid",
+              "border-width": "0",
+              "flex-direction": "row"
+            },
+            "events": {},
+            "classes": {},
+            "children": [
+              "FJIdHLxzXnkdj4FPR7BoS"
+            ],
+            "variants": [],
+            "styleVariables": {}
+          },
+          "uzOtmqoB39ErzMAyC_DFY": {
             "tag": "p",
             "type": "element",
             "attrs": {},
-            "style": { "color": "inherit", "display": "inline-block" },
+            "style": {
+              "color": "var(--grey-500)",
+              "display": "block",
+              "font-size": "1rem",
+              "border-style": "solid",
+              "border-width": "0",
+              "flex-direction": "row"
+            },
             "events": {},
             "classes": {},
-            "children": ["vnERXXaHU1zd6Jz79Ry5I"],
+            "children": [
+              "Abyq8cBWoC16KZlpQfBoW"
+            ],
+            "variants": [],
             "styleVariables": {}
           },
-          "vnERXXaHU1zd6Jz79Ry5I": {
-            "type": "text",
-            "value": { "path": ["URL parameters", "q"], "type": "path" }
-          },
-          "z5I8Rnxfdy2McmsNLlMhD": {
+          "w0kxuFVtCp24i47wQO7rR": {
             "type": "text",
             "value": {
-              "name": "@toddle/concatenate",
-              "type": "function",
-              "arguments": [
-                {
-                  "name": "0",
-                  "type": {
-                    "type": "Union",
-                    "types": [
-                      { "type": "String" },
-                      { "type": "Array", "ofType": { "type": "Any" } }
-                    ]
-                  },
-                  "formula": { "type": "value", "value": "Calculated value: " }
-                },
-                {
-                  "name": "0",
-                  "type": {
-                    "type": "Union",
-                    "types": [
-                      { "type": "String" },
-                      { "type": "Array", "ofType": { "type": "Any" } }
-                    ]
-                  },
-                  "formula": {
-                    "name": "@toddle/formatDate",
-                    "type": "function",
-                    "arguments": [
-                      {
-                        "name": "Date",
-                        "type": { "type": "Date" },
-                        "formula": {
-                          "name": "@toddle/now",
-                          "type": "function",
-                          "arguments": [],
-                          "display_name": "Now"
-                        }
-                      },
-                      {
-                        "name": "Locale(s)",
-                        "type": { "type": "String | Array" },
-                        "formula": { "type": "value", "value": null }
-                      },
-                      {
-                        "name": "Options",
-                        "type": { "type": "Object" },
-                        "formula": {
-                          "type": "object",
-                          "arguments": [
-                            {
-                              "Name": 0,
-                              "name": "timeFormat",
-                              "formula": { "type": "value", "value": "short" }
-                            },
-                            {
-                              "Name": 0,
-                              "name": "dateFormat",
-                              "formula": { "type": "value", "value": "short" }
-                            }
-                          ]
-                        }
-                      }
-                    ],
-                    "display_name": "Format Date"
-                  }
-                },
-                {
-                  "name": "0",
-                  "type": {
-                    "type": "Union",
-                    "types": [
-                      { "type": "String" },
-                      { "type": "Array", "ofType": { "type": "Any" } }
-                    ]
-                  },
-                  "formula": { "type": "value", "value": " and 4 + 9 is: " }
-                },
-                {
-                  "name": "0",
-                  "type": {
-                    "type": "Union",
-                    "types": [
-                      { "type": "String" },
-                      { "type": "Array", "ofType": { "type": "Any" } }
-                    ]
-                  },
-                  "formula": {
-                    "name": "@toddle/sum",
-                    "type": "function",
-                    "arguments": [
-                      {
-                        "name": "Array",
-                        "type": { "type": "Array" },
-                        "formula": {
-                          "type": "array",
-                          "arguments": [
-                            {
-                              "Name": 0,
-                              "formula": { "type": "value", "value": 4 }
-                            },
-                            {
-                              "Name": 0,
-                              "formula": { "type": "value", "value": 9 }
-                            }
-                          ]
-                        }
-                      }
-                    ],
-                    "display_name": "Sum"
-                  }
-                }
-              ],
-              "display_name": "Concatenate",
-              "variableArguments": true
+              "type": "value",
+              "value": "Convert to"
             }
           },
-          "SsJicr-d3CKhKiJ2O7CAO": {
-            "name": "counter",
-            "attrs": {},
+          "wpCK2nD2xr5t8bxsIbeBv": {
+            "tag": "path",
+            "type": "element",
+            "attrs": {
+              "d": {
+                "type": "value",
+                "value": "M123.84 82.2857L86 0L48.16 82.2857L80.84 70.4414V96H91.16V70.4414L123.84 82.2857Z"
+              },
+              "fill": {
+                "type": "value",
+                "value": "white"
+              },
+              "data-id": {
+                "type": "value",
+                "value": "0.0.1.0.0"
+              },
+              "clip-rule": {
+                "type": "value",
+                "value": "evenodd"
+              },
+              "fill-rule": {
+                "type": "value",
+                "value": "evenodd"
+              },
+              "data-node-id": {
+                "type": "value",
+                "value": "CC5dMn8Yr_6ht6UlFUPcZ"
+              },
+              "data-component": {
+                "type": "value",
+                "value": "nordcraft_shared/nc-logo-wide"
+              },
+              "data-unset-toddle-styles": {
+                "type": "value",
+                "value": true
+              }
+            },
+            "style": {
+              "box-sizing": "border-box"
+            },
             "events": {},
-            "type": "component",
+            "classes": {},
             "children": [],
-            "repeat": null
+            "styleVariables": {}
+          },
+          "xAecEm-I8194pjSDVk9Ye": {
+            "type": "text",
+            "value": {
+              "type": "value",
+              "value": "Made by NoCode ProCode"
+            }
+          },
+          "xVMe0gPKhqgtN9oUpCq_U": {
+            "tag": "textarea",
+            "type": "element",
+            "attrs": {
+              "rows": {
+                "type": "value",
+                "value": "8"
+              },
+              "value": {
+                "path": [
+                  "Variables",
+                  "nodes"
+                ],
+                "type": "path"
+              },
+              "placeholder": {
+                "type": "value",
+                "value": "Your Nordcraft Code Output..."
+              }
+            },
+            "style": {
+              "color": "var(--grey-300)",
+              "width": "100%",
+              "resize": "none",
+              "display": "block",
+              "padding": "0.75rem",
+              "font-size": "12px",
+              "background": " #242424",
+              "min-height": "200px",
+              "flex-direction": "row",
+              "border-top-left-radius": "0.75rem",
+              "border-top-right-radius": "0.75rem",
+              "border-bottom-left-radius": "0.75rem",
+              "border-bottom-right-radius": "0.75rem"
+            },
+            "events": {},
+            "classes": {},
+            "children": [],
+            "variants": [],
+            "styleVariables": {}
+          },
+          "xXYLwNOvtpfrswNXUTbXJ": {
+            "tag": "a",
+            "type": "element",
+            "attrs": {
+              "href": {
+                "type": "value",
+                "value": "https://nocodeprocode.com"
+              },
+              "data-prerender": {
+                "type": "value",
+                "value": "moderate"
+              }
+            },
+            "style": {
+              "color": "#ffffff70",
+              "font-size": "13px",
+              "font-weight": "400"
+            },
+            "events": {},
+            "classes": {},
+            "children": [
+              "xAecEm-I8194pjSDVk9Ye"
+            ],
+            "styleVariables": {}
+          },
+          "y2dHYcinWLxElFXo0gVKi": {
+            "tag": "clipPath",
+            "type": "element",
+            "attrs": {
+              "id": {
+                "type": "value",
+                "value": "prefix__clip0"
+              },
+              "data-unset-toddle-styles": {
+                "type": "value",
+                "value": true
+              }
+            },
+            "style": {
+              "box-sizing": "border-box"
+            },
+            "events": {},
+            "classes": {},
+            "children": [
+              "bjDfqvxNrocPya-sseWe5"
+            ],
+            "styleVariables": {}
           }
         },
         "route": {
           "info": {
             "title": {
-              "formula": { "type": "value", "value": "Toddle template" }
+              "formula": {
+                "type": "value",
+                "value": "Tailwind to Nordcraft"
+              }
+            },
+            "language": {
+              "formula": {
+                "type": "value",
+                "value": "en-US"
+              }
             },
             "description": {
               "formula": {
                 "type": "value",
-                "value": "A blank template from toddle"
+                "value": "Made by NoCode ProCode"
               }
             }
           },
           "path": [],
-          "query": {
-            "q": { "name": "q", "testValue": "search" },
-            "test": { "name": "test", "testValue": "test" }
-          }
+          "query": {}
         },
         "events": [],
-        "onLoad": { "actions": [], "trigger": "load" },
+        "onLoad": {
+          "actions": [],
+          "trigger": "load"
+        },
         "functions": {},
-        "variables": {},
-        "attributes": {}
-      },
-      "counter": {
-        "attributes": {},
-        "onLoad": null,
-        "events": [],
-        "formulas": {},
-        "nodes": {
-          "root": {
-            "type": "element",
-            "tag": "div",
-            "attrs": {},
-            "classes": {},
-            "events": {},
-            "children": [
-              "8Xso9hlnAdBt6DxRYxND5",
-              "bUF7igS7dRCsLtiZGRSf_",
-              "bRDsUkUPHDiwSguz57dY1"
-            ],
-            "style": {
-              "color": "var(--grey-200, #E5E5E5)",
-              "align-items": "center",
-              "justify-content": "start",
-              "flex-direction": "row",
-              "gap": "8px"
-            },
-            "styleVariables": {}
-          },
-          "bUF7igS7dRCsLtiZGRSf_": {
-            "tag": "p",
-            "type": "element",
-            "attrs": {},
-            "style": { "color": "inherit", "display": "inline-block" },
-            "events": {},
-            "classes": {},
-            "children": ["olANeLrT3QHE_sAMkT2iC"],
-            "styleVariables": {}
-          },
-          "olANeLrT3QHE_sAMkT2iC": {
-            "type": "text",
-            "value": {
-              "type": "function",
-              "name": "@toddle/concatenate",
-              "arguments": [
-                {
-                  "name": "0",
-                  "formula": { "type": "value", "value": "Count: " },
-                  "type": {
-                    "type": "Union",
-                    "types": [
-                      { "type": "String" },
-                      { "type": "Array", "ofType": { "type": "Any" } }
-                    ]
-                  }
-                },
-                {
-                  "name": "0",
-                  "formula": { "type": "path", "path": ["Variables", "count"] },
-                  "type": {
-                    "type": "Union",
-                    "types": [
-                      { "type": "String" },
-                      { "type": "Array", "ofType": { "type": "Any" } }
-                    ]
-                  }
-                }
-              ],
-              "variableArguments": true,
-              "display_name": "Concatenate"
+        "variables": {
+          "html": {
+            "initialValue": {
+              "type": "value",
+              "value": ""
             }
           },
-          "bRDsUkUPHDiwSguz57dY1": {
-            "tag": "button",
-            "type": "element",
-            "attrs": {},
-            "style": {
-              "color": "var(--grey-200, #E5E5E5)",
-              "border-radius": "6px",
-              "background-color": "var(--blue-600, #2563EB)",
-              "padding-left": "8px",
-              "padding-right": "8px",
-              "padding-top": "8px",
-              "padding-bottom": "8px",
-              "width": "fit-content",
-              "cursor": "pointer"
-            },
-            "events": {
-              "click": {
-                "trigger": "click",
-                "actions": [
-                  {
-                    "type": "SetVariable",
-                    "data": {
-                      "type": "function",
-                      "name": "@toddle/add",
-                      "arguments": [
-                        {
-                          "name": "0",
-                          "formula": {
-                            "type": "path",
-                            "path": ["Variables", "count"]
-                          },
-                          "type": { "type": "Number" }
-                        },
-                        {
-                          "name": "1",
-                          "formula": { "type": "value", "value": 1 },
-                          "type": { "type": "Number" }
-                        }
-                      ],
-                      "variableArguments": true,
-                      "display_name": "Add"
-                    },
-                    "variable": "count"
-                  }
-                ]
-              }
-            },
-            "classes": {},
-            "children": ["uuAFG8sArLI_tPfws2CYX"],
-            "variants": [
-              {
-                "hover": true,
-                "style": { "background-color": "var(--blue-500, #3B82F6)" }
-              }
-            ],
-            "styleVariables": {}
-          },
-          "uuAFG8sArLI_tPfws2CYX": {
-            "type": "text",
-            "value": { "type": "value", "value": "+" }
-          },
-          "8Xso9hlnAdBt6DxRYxND5": {
-            "tag": "button",
-            "type": "element",
-            "attrs": {},
-            "style": {
-              "color": "var(--grey-200, #E5E5E5)",
-              "border-radius": "6px",
-              "background-color": "var(--blue-600, #2563EB)",
-              "padding-left": "8px",
-              "padding-right": "8px",
-              "padding-top": "8px",
-              "padding-bottom": "8px",
-              "width": "fit-content",
-              "cursor": "pointer"
-            },
-            "events": {
-              "click": {
-                "trigger": "click",
-                "actions": [
-                  {
-                    "type": "SetVariable",
-                    "data": {
-                      "type": "function",
-                      "name": "@toddle/max",
-                      "arguments": [
-                        {
-                          "name": "0",
-                          "formula": {
-                            "type": "function",
-                            "name": "@toddle/minus",
-                            "arguments": [
-                              {
-                                "name": "Minuend",
-                                "formula": {
-                                  "type": "path",
-                                  "path": ["Variables", "count"]
-                                },
-                                "type": { "type": "Number" }
-                              },
-                              {
-                                "name": "Substrahend",
-                                "formula": { "type": "value", "value": 1 },
-                                "type": { "type": "Number" }
-                              }
-                            ],
-                            "display_name": "Minus"
-                          },
-                          "type": { "type": "Number" }
-                        },
-                        {
-                          "name": "1",
-                          "formula": { "type": "value", "value": 0 },
-                          "type": { "type": "Number" }
-                        }
-                      ],
-                      "variableArguments": true,
-                      "display_name": "Max"
-                    },
-                    "variable": "count"
-                  }
-                ]
-              }
-            },
-            "classes": {},
-            "children": ["fu2T-qOHbpd1ykskNnwiK"],
-            "variants": [
-              {
-                "hover": true,
-                "style": { "background-color": "var(--blue-500, #3B82F6)" }
-              }
-            ],
-            "styleVariables": {}
-          },
-          "fu2T-qOHbpd1ykskNnwiK": {
-            "type": "text",
-            "value": { "type": "value", "value": "-" }
-          }
-        },
-        "variables": {
-          "count": {
+          "nodes": {
             "initialValue": {
+              "name": "@toddle/string",
               "type": "function",
-              "name": "@toddle/number",
               "arguments": [
                 {
                   "name": "Input",
-                  "formula": { "type": "value", "value": 0 },
-                  "type": { "type": "Any" }
+                  "type": {
+                    "type": "Any"
+                  },
+                  "formula": {
+                    "type": "value",
+                    "value": "{}"
+                  }
                 }
               ],
-              "display_name": "Number"
+              "display_name": "String"
             }
           }
         },
-        "apis": {},
-        "name": "counter"
+        "attributes": {}
       }
     },
-    "actions": {},
-    "formulas": {},
+    "actions": {
+      "tailwindToToddle": {
+        "key": "tailwindToToddle",
+        "name": "tailwindToToddle",
+        "events": {
+          "data": {
+            "actions": [],
+            "dummyEvent": "<html/>"
+          }
+        },
+        "handler": "/**\n \n@param {Args} args\n@param {Ctx} ctx*/\nasync function tailwindToToddle (args, ctx) {\n  const {tailwindToToddle} = await import(\"https://cdn.jsdelivr.net/npm/@toddledev/tailwind-parser@1.0.4/+esm\")\n  ctx.triggerActionEvent(\"data\", tailwindToToddle(args.html))\n}",
+        "version": 2,
+        "arguments": [
+          {
+            "name": "html",
+            "type": {
+              "type": "String"
+            },
+            "formula": null
+          }
+        ],
+        "handlerRaw": "/**\n \n@param {Args} args\n@param {Ctx} ctx*/\nasync function tailwindToToddle (args, ctx) {\n  const {tailwindToToddle} = await import(\"https://cdn.jsdelivr.net/npm/@toddledev/tailwind-parser@1.0.4/+esm\")\n  ctx.triggerActionEvent(\"data\", tailwindToToddle(args.html))\n}",
+        "description": ""
+      }
+    },
+    "formulas": {
+      "classCleanup": {
+        "key": "classCleanup",
+        "name": "classCleanup",
+        "handler": "/**\n * @param {Args} args\n * @param {Ctx} ctx\n */\nfunction classCleanup(args, ctx) {\n\nlet jsonString = `${args.nodes}`;\n\nfunction replaceClasses(jsonStr) {\n  let result = '';\n  let index = 0;\n\n  while (index < jsonStr.length) {\n    let classesIndex = jsonStr.indexOf('\"classes\"', index);\n    if (classesIndex === -1) {\n\n      result += jsonStr.slice(index);\n      break;\n    } else {\n\n      result += jsonStr.slice(index, classesIndex);\n      index = classesIndex;\n\n      let braceIndex = jsonStr.indexOf('{', index);\n      if (braceIndex === -1) {\n        throw new Error('Malformed JSON: Expected \"{\" after \"classes\"');\n      }\n\n      result += '\"classes\":{}';\n      index = braceIndex + 1;\n\n      let braceCount = 1;\n      while (braceCount > 0 && index < jsonStr.length) {\n        if (jsonStr[index] === '{') braceCount++;\n        else if (jsonStr[index] === '}') braceCount--;\n        index++;\n      }\n\n      if (braceCount !== 0) {\n        throw new Error('Malformed JSON: Unmatched braces in \"classes\" object');\n      }\n    }\n  }\n\n  return result;\n}\n\njsonString = replaceClasses(jsonString);\n\nreturn jsonString\n\n}",
+        "version": 2,
+        "arguments": [
+          {
+            "name": "nodes",
+            "type": {
+              "type": "Unknown"
+            },
+            "formula": null
+          }
+        ],
+        "handlerRaw": "/**\n * @param {Args} args\n * @param {Ctx} ctx\n */\nfunction classCleanup(args, ctx) {\n\nlet jsonString = `${args.nodes}`;\n\nfunction replaceClasses(jsonStr) {\n  let result = '';\n  let index = 0;\n\n  while (index < jsonStr.length) {\n    let classesIndex = jsonStr.indexOf('\"classes\"', index);\n    if (classesIndex === -1) {\n\n      result += jsonStr.slice(index);\n      break;\n    } else {\n\n      result += jsonStr.slice(index, classesIndex);\n      index = classesIndex;\n\n      let braceIndex = jsonStr.indexOf('{', index);\n      if (braceIndex === -1) {\n        throw new Error('Malformed JSON: Expected \"{\" after \"classes\"');\n      }\n\n      result += '\"classes\":{}';\n      index = braceIndex + 1;\n\n      let braceCount = 1;\n      while (braceCount > 0 && index < jsonStr.length) {\n        if (jsonStr[index] === '{') braceCount++;\n        else if (jsonStr[index] === '}') braceCount--;\n        index++;\n      }\n\n      if (braceCount !== 0) {\n        throw new Error('Malformed JSON: Unmatched braces in \"classes\" object');\n      }\n    }\n  }\n\n  return result;\n}\n\njsonString = replaceClasses(jsonString);\n\nreturn jsonString\n\n}",
+        "description": ""
+      }
+    },
     "config": {},
     "packages": {},
     "themes": {
@@ -617,136 +2295,496 @@
           {
             "name": "grey",
             "tokens": [
-              { "name": "grey-50", "type": "value", "value": "#FAFAFA" },
-              { "name": "grey-100", "type": "value", "value": "#F5F5F5" },
-              { "name": "grey-200", "type": "value", "value": "#E5E5E5" },
-              { "name": "grey-300", "type": "value", "value": "#D4D4D4" },
-              { "name": "grey-400", "type": "value", "value": "#A3A3A3" },
-              { "name": "grey-500", "type": "value", "value": "#737373" },
-              { "name": "grey-600", "type": "value", "value": "#525252" },
-              { "name": "grey-700", "type": "value", "value": "#404040" },
-              { "name": "grey-800", "type": "value", "value": "#262626" },
-              { "name": "grey-900", "type": "value", "value": "#171717" }
+              {
+                "name": "grey-50",
+                "type": "value",
+                "value": "#FAFAFA"
+              },
+              {
+                "name": "grey-100",
+                "type": "value",
+                "value": "#F5F5F5"
+              },
+              {
+                "name": "grey-200",
+                "type": "value",
+                "value": "#E5E5E5"
+              },
+              {
+                "name": "grey-300",
+                "type": "value",
+                "value": "#D4D4D4"
+              },
+              {
+                "name": "grey-400",
+                "type": "value",
+                "value": "#A3A3A3"
+              },
+              {
+                "name": "grey-500",
+                "type": "value",
+                "value": "#737373"
+              },
+              {
+                "name": "grey-600",
+                "type": "value",
+                "value": "#525252"
+              },
+              {
+                "name": "grey-700",
+                "type": "value",
+                "value": "#404040"
+              },
+              {
+                "name": "grey-800",
+                "type": "value",
+                "value": "#262626"
+              },
+              {
+                "name": "grey-900",
+                "type": "value",
+                "value": "#171717"
+              }
             ]
           },
           {
             "name": "red",
             "tokens": [
-              { "name": "red-50", "type": "value", "value": "#FEF2F2" },
-              { "name": "red-100", "type": "value", "value": "#FEE2E2" },
-              { "name": "red-200", "type": "value", "value": "#FECACA" },
-              { "name": "red-300", "type": "value", "value": "#FCA5A5" },
-              { "name": "red-400", "type": "value", "value": "#F87171" },
-              { "name": "red-500", "type": "value", "value": "#EF4444" },
-              { "name": "red-600", "type": "value", "value": "#DC2626" },
-              { "name": "red-700", "type": "value", "value": "#B91C1C" },
-              { "name": "red-800", "type": "value", "value": "#991B1B" },
-              { "name": "red-900", "type": "value", "value": "#7F1D1D" }
+              {
+                "name": "red-50",
+                "type": "value",
+                "value": "#FEF2F2"
+              },
+              {
+                "name": "red-100",
+                "type": "value",
+                "value": "#FEE2E2"
+              },
+              {
+                "name": "red-200",
+                "type": "value",
+                "value": "#FECACA"
+              },
+              {
+                "name": "red-300",
+                "type": "value",
+                "value": "#FCA5A5"
+              },
+              {
+                "name": "red-400",
+                "type": "value",
+                "value": "#F87171"
+              },
+              {
+                "name": "red-500",
+                "type": "value",
+                "value": "#EF4444"
+              },
+              {
+                "name": "red-600",
+                "type": "value",
+                "value": "#DC2626"
+              },
+              {
+                "name": "red-700",
+                "type": "value",
+                "value": "#B91C1C"
+              },
+              {
+                "name": "red-800",
+                "type": "value",
+                "value": "#991B1B"
+              },
+              {
+                "name": "red-900",
+                "type": "value",
+                "value": "#7F1D1D"
+              }
             ]
           },
           {
             "name": "blue",
             "tokens": [
-              { "name": "blue-50", "type": "value", "value": "#EFF6FF" },
-              { "name": "blue-100", "type": "value", "value": "#DBEAFE" },
-              { "name": "blue-200", "type": "value", "value": "#BFDBFE" },
-              { "name": "blue-300", "type": "value", "value": "#93C5FD" },
-              { "name": "blue-400", "type": "value", "value": "#60A5FA" },
-              { "name": "blue-500", "type": "value", "value": "#3B82F6" },
-              { "name": "blue-600", "type": "value", "value": "#2563EB" },
-              { "name": "blue-700", "type": "value", "value": "#1D4ED8" },
-              { "name": "blue-800", "type": "value", "value": "#1E40AF" },
-              { "name": "blue-900", "type": "value", "value": "#1E3A8A" }
+              {
+                "name": "blue-50",
+                "type": "value",
+                "value": "#EFF6FF"
+              },
+              {
+                "name": "blue-100",
+                "type": "value",
+                "value": "#DBEAFE"
+              },
+              {
+                "name": "blue-200",
+                "type": "value",
+                "value": "#BFDBFE"
+              },
+              {
+                "name": "blue-300",
+                "type": "value",
+                "value": "#93C5FD"
+              },
+              {
+                "name": "blue-400",
+                "type": "value",
+                "value": "#60A5FA"
+              },
+              {
+                "name": "blue-500",
+                "type": "value",
+                "value": "#3B82F6"
+              },
+              {
+                "name": "blue-600",
+                "type": "value",
+                "value": "#2563EB"
+              },
+              {
+                "name": "blue-700",
+                "type": "value",
+                "value": "#1D4ED8"
+              },
+              {
+                "name": "blue-800",
+                "type": "value",
+                "value": "#1E40AF"
+              },
+              {
+                "name": "blue-900",
+                "type": "value",
+                "value": "#1E3A8A"
+              }
             ]
           },
           {
             "name": "lime",
             "tokens": [
-              { "name": "lime-50", "type": "value", "value": "#F7FEE7" },
-              { "name": "lime-100", "type": "value", "value": "#ECFCCB" },
-              { "name": "lime-200", "type": "value", "value": "#D9F99D" },
-              { "name": "lime-300", "type": "value", "value": "#BEF264" },
-              { "name": "lime-400", "type": "value", "value": "#A3E635" },
-              { "name": "lime-500", "type": "value", "value": "#84CC16" },
-              { "name": "lime-600", "type": "value", "value": "#65A30D" },
-              { "name": "lime-700", "type": "value", "value": "#4D7C0F" },
-              { "name": "lime-800", "type": "value", "value": "#3F6212" },
-              { "name": "lime-900", "type": "value", "value": "#365314" }
+              {
+                "name": "lime-50",
+                "type": "value",
+                "value": "#F7FEE7"
+              },
+              {
+                "name": "lime-100",
+                "type": "value",
+                "value": "#ECFCCB"
+              },
+              {
+                "name": "lime-200",
+                "type": "value",
+                "value": "#D9F99D"
+              },
+              {
+                "name": "lime-300",
+                "type": "value",
+                "value": "#BEF264"
+              },
+              {
+                "name": "lime-400",
+                "type": "value",
+                "value": "#A3E635"
+              },
+              {
+                "name": "lime-500",
+                "type": "value",
+                "value": "#84CC16"
+              },
+              {
+                "name": "lime-600",
+                "type": "value",
+                "value": "#65A30D"
+              },
+              {
+                "name": "lime-700",
+                "type": "value",
+                "value": "#4D7C0F"
+              },
+              {
+                "name": "lime-800",
+                "type": "value",
+                "value": "#3F6212"
+              },
+              {
+                "name": "lime-900",
+                "type": "value",
+                "value": "#365314"
+              }
             ]
           },
           {
             "name": "pink",
             "tokens": [
-              { "name": "pink-50", "type": "value", "value": "#FDF2F8" },
-              { "name": "pink-100", "type": "value", "value": "#FCE7F3" },
-              { "name": "pink-200", "type": "value", "value": "#FBCFE8" },
-              { "name": "pink-300", "type": "value", "value": "#F9A8D4" },
-              { "name": "pink-400", "type": "value", "value": "#F472B6" },
-              { "name": "pink-500", "type": "value", "value": "#EC4899" },
-              { "name": "pink-600", "type": "value", "value": "#DB2777" },
-              { "name": "pink-700", "type": "value", "value": "#BE185D" },
-              { "name": "pink-800", "type": "value", "value": "#9D174D" },
-              { "name": "pink-900", "type": "value", "value": "#831843" }
+              {
+                "name": "pink-50",
+                "type": "value",
+                "value": "#FDF2F8"
+              },
+              {
+                "name": "pink-100",
+                "type": "value",
+                "value": "#FCE7F3"
+              },
+              {
+                "name": "pink-200",
+                "type": "value",
+                "value": "#FBCFE8"
+              },
+              {
+                "name": "pink-300",
+                "type": "value",
+                "value": "#F9A8D4"
+              },
+              {
+                "name": "pink-400",
+                "type": "value",
+                "value": "#F472B6"
+              },
+              {
+                "name": "pink-500",
+                "type": "value",
+                "value": "#EC4899"
+              },
+              {
+                "name": "pink-600",
+                "type": "value",
+                "value": "#DB2777"
+              },
+              {
+                "name": "pink-700",
+                "type": "value",
+                "value": "#BE185D"
+              },
+              {
+                "name": "pink-800",
+                "type": "value",
+                "value": "#9D174D"
+              },
+              {
+                "name": "pink-900",
+                "type": "value",
+                "value": "#831843"
+              }
             ]
           },
           {
             "name": "teal",
             "tokens": [
-              { "name": "teal-50", "type": "value", "value": "#F0FDFA" },
-              { "name": "teal-100", "type": "value", "value": "#CCFBF1" },
-              { "name": "teal-200", "type": "value", "value": "#99F6E4" },
-              { "name": "teal-300", "type": "value", "value": "#5EEAD4" },
-              { "name": "teal-400", "type": "value", "value": "#2DD4BF" },
-              { "name": "teal-500", "type": "value", "value": "#14B8A6" },
-              { "name": "teal-600", "type": "value", "value": "#0D9488" },
-              { "name": "teal-700", "type": "value", "value": "#0F766E" },
-              { "name": "teal-800", "type": "value", "value": "#115E59" },
-              { "name": "teal-900", "type": "value", "value": "#134E4A" }
+              {
+                "name": "teal-50",
+                "type": "value",
+                "value": "#F0FDFA"
+              },
+              {
+                "name": "teal-100",
+                "type": "value",
+                "value": "#CCFBF1"
+              },
+              {
+                "name": "teal-200",
+                "type": "value",
+                "value": "#99F6E4"
+              },
+              {
+                "name": "teal-300",
+                "type": "value",
+                "value": "#5EEAD4"
+              },
+              {
+                "name": "teal-400",
+                "type": "value",
+                "value": "#2DD4BF"
+              },
+              {
+                "name": "teal-500",
+                "type": "value",
+                "value": "#14B8A6"
+              },
+              {
+                "name": "teal-600",
+                "type": "value",
+                "value": "#0D9488"
+              },
+              {
+                "name": "teal-700",
+                "type": "value",
+                "value": "#0F766E"
+              },
+              {
+                "name": "teal-800",
+                "type": "value",
+                "value": "#115E59"
+              },
+              {
+                "name": "teal-900",
+                "type": "value",
+                "value": "#134E4A"
+              }
             ]
           },
           {
             "name": "green",
             "tokens": [
-              { "name": "green-50", "type": "value", "value": "#ECFDF5" },
-              { "name": "green-100", "type": "value", "value": "#D1FAE5" },
-              { "name": "green-200", "type": "value", "value": "#A7F3D0" },
-              { "name": "green-300", "type": "value", "value": "#6EE7B7" },
-              { "name": "green-400", "type": "value", "value": "#34D399" },
-              { "name": "green-500", "type": "value", "value": "#10B981" },
-              { "name": "green-600", "type": "value", "value": "#059669" },
-              { "name": "green-700", "type": "value", "value": "#047857" },
-              { "name": "green-800", "type": "value", "value": "#065F46" },
-              { "name": "green-900", "type": "value", "value": "#064E3B" }
+              {
+                "name": "green-50",
+                "type": "value",
+                "value": "#ECFDF5"
+              },
+              {
+                "name": "green-100",
+                "type": "value",
+                "value": "#D1FAE5"
+              },
+              {
+                "name": "green-200",
+                "type": "value",
+                "value": "#A7F3D0"
+              },
+              {
+                "name": "green-300",
+                "type": "value",
+                "value": "#6EE7B7"
+              },
+              {
+                "name": "green-400",
+                "type": "value",
+                "value": "#34D399"
+              },
+              {
+                "name": "green-500",
+                "type": "value",
+                "value": "#10B981"
+              },
+              {
+                "name": "green-600",
+                "type": "value",
+                "value": "#059669"
+              },
+              {
+                "name": "green-700",
+                "type": "value",
+                "value": "#047857"
+              },
+              {
+                "name": "green-800",
+                "type": "value",
+                "value": "#065F46"
+              },
+              {
+                "name": "green-900",
+                "type": "value",
+                "value": "#064E3B"
+              }
             ]
           },
           {
             "name": "purple",
             "tokens": [
-              { "name": "purple-50", "type": "value", "value": "#F5F3FF" },
-              { "name": "purple-100", "type": "value", "value": "#EDE9FE" },
-              { "name": "purple-200", "type": "value", "value": "#DDD6FE" },
-              { "name": "purple-300", "type": "value", "value": "#C4B5FD" },
-              { "name": "purple-400", "type": "value", "value": "#A78BFA" },
-              { "name": "purple-500", "type": "value", "value": "#8B5CF6" },
-              { "name": "purple-600", "type": "value", "value": "#7C3AED" },
-              { "name": "purple-700", "type": "value", "value": "#6D28D9" },
-              { "name": "purple-800", "type": "value", "value": "#5B21B6" },
-              { "name": "purple-900", "type": "value", "value": "#4C1D95" }
+              {
+                "name": "purple-50",
+                "type": "value",
+                "value": "#F5F3FF"
+              },
+              {
+                "name": "purple-100",
+                "type": "value",
+                "value": "#EDE9FE"
+              },
+              {
+                "name": "purple-200",
+                "type": "value",
+                "value": "#DDD6FE"
+              },
+              {
+                "name": "purple-300",
+                "type": "value",
+                "value": "#C4B5FD"
+              },
+              {
+                "name": "purple-400",
+                "type": "value",
+                "value": "#A78BFA"
+              },
+              {
+                "name": "purple-500",
+                "type": "value",
+                "value": "#8B5CF6"
+              },
+              {
+                "name": "purple-600",
+                "type": "value",
+                "value": "#7C3AED"
+              },
+              {
+                "name": "purple-700",
+                "type": "value",
+                "value": "#6D28D9"
+              },
+              {
+                "name": "purple-800",
+                "type": "value",
+                "value": "#5B21B6"
+              },
+              {
+                "name": "purple-900",
+                "type": "value",
+                "value": "#4C1D95"
+              }
             ]
           },
           {
             "name": "yellow",
             "tokens": [
-              { "name": "yellow-50", "type": "value", "value": "#FFFBEB" },
-              { "name": "yellow-100", "type": "value", "value": "#FEF3C7" },
-              { "name": "yellow-200", "type": "value", "value": "#FDE68A" },
-              { "name": "yellow-300", "type": "value", "value": "#FCD34D" },
-              { "name": "yellow-400", "type": "value", "value": "#FBBF24" },
-              { "name": "yellow-500", "type": "value", "value": "#F59E0B" },
-              { "name": "yellow-600", "type": "value", "value": "#D97706" },
-              { "name": "yellow-700", "type": "value", "value": "#B45309" },
-              { "name": "yellow-800", "type": "value", "value": "#92400E" },
-              { "name": "yellow-900", "type": "value", "value": "#78350F" }
+              {
+                "name": "yellow-50",
+                "type": "value",
+                "value": "#FFFBEB"
+              },
+              {
+                "name": "yellow-100",
+                "type": "value",
+                "value": "#FEF3C7"
+              },
+              {
+                "name": "yellow-200",
+                "type": "value",
+                "value": "#FDE68A"
+              },
+              {
+                "name": "yellow-300",
+                "type": "value",
+                "value": "#FCD34D"
+              },
+              {
+                "name": "yellow-400",
+                "type": "value",
+                "value": "#FBBF24"
+              },
+              {
+                "name": "yellow-500",
+                "type": "value",
+                "value": "#F59E0B"
+              },
+              {
+                "name": "yellow-600",
+                "type": "value",
+                "value": "#D97706"
+              },
+              {
+                "name": "yellow-700",
+                "type": "value",
+                "value": "#B45309"
+              },
+              {
+                "name": "yellow-800",
+                "type": "value",
+                "value": "#92400E"
+              },
+              {
+                "name": "yellow-900",
+                "type": "value",
+                "value": "#78350F"
+              }
             ]
           }
         ],
@@ -858,16 +2896,56 @@
           {
             "name": "Default",
             "tokens": [
-              { "name": "font-size-xxs", "type": "value", "value": "0.625rem" },
-              { "name": "font-size-xs", "type": "value", "value": "0.75rem" },
-              { "name": "font-size-sm", "type": "value", "value": "0.875rem" },
-              { "name": "font-size-base", "type": "value", "value": "1rem" },
-              { "name": "font-size-lg", "type": "value", "value": "1.125rem" },
-              { "name": "font-size-xl", "type": "value", "value": "1.25rem" },
-              { "name": "font-size-2xl", "type": "value", "value": "1.5rem" },
-              { "name": "font-size-3xl", "type": "value", "value": "1.875rem" },
-              { "name": "font-size-4xl", "type": "value", "value": "2.25rem" },
-              { "name": "font-size-5xl", "type": "value", "value": "3rem" }
+              {
+                "name": "font-size-xxs",
+                "type": "value",
+                "value": "0.625rem"
+              },
+              {
+                "name": "font-size-xs",
+                "type": "value",
+                "value": "0.75rem"
+              },
+              {
+                "name": "font-size-sm",
+                "type": "value",
+                "value": "0.875rem"
+              },
+              {
+                "name": "font-size-base",
+                "type": "value",
+                "value": "1rem"
+              },
+              {
+                "name": "font-size-lg",
+                "type": "value",
+                "value": "1.125rem"
+              },
+              {
+                "name": "font-size-xl",
+                "type": "value",
+                "value": "1.25rem"
+              },
+              {
+                "name": "font-size-2xl",
+                "type": "value",
+                "value": "1.5rem"
+              },
+              {
+                "name": "font-size-3xl",
+                "type": "value",
+                "value": "1.875rem"
+              },
+              {
+                "name": "font-size-4xl",
+                "type": "value",
+                "value": "2.25rem"
+              },
+              {
+                "name": "font-size-5xl",
+                "type": "value",
+                "value": "3rem"
+              }
             ]
           }
         ],
@@ -875,27 +2953,51 @@
           {
             "name": "Default",
             "tokens": [
-              { "name": "font-weight-thin", "type": "value", "value": "100" },
+              {
+                "name": "font-weight-thin",
+                "type": "value",
+                "value": "100"
+              },
               {
                 "name": "font-weight-lighter",
                 "type": "value",
                 "value": "200"
               },
-              { "name": "font-weight-light", "type": "value", "value": "300" },
+              {
+                "name": "font-weight-light",
+                "type": "value",
+                "value": "300"
+              },
               {
                 "name": "font-weight-regular",
                 "type": "value",
                 "value": "400"
               },
-              { "name": "font-weight-normal", "type": "value", "value": "500" },
-              { "name": "font-weight-bold", "type": "value", "value": "700" },
+              {
+                "name": "font-weight-normal",
+                "type": "value",
+                "value": "500"
+              },
+              {
+                "name": "font-weight-bold",
+                "type": "value",
+                "value": "700"
+              },
               {
                 "name": "font-weight-semi-bold",
                 "type": "value",
                 "value": "600"
               },
-              { "name": "font-weight-bolder", "type": "value", "value": "800" },
-              { "name": "font-weight-black", "type": "value", "value": "900" }
+              {
+                "name": "font-weight-bolder",
+                "type": "value",
+                "value": "800"
+              },
+              {
+                "name": "font-weight-black",
+                "type": "value",
+                "value": "900"
+              }
             ]
           }
         ],
